@@ -6,8 +6,9 @@ I am not a student studying infocomm security. I am just doing this as a hobby a
 ---
 
 ## Round 1: Bartik
+
 Challenges                                         | Points | Remarks
----------------------------------------------------|:---:|
+---------------------------------------------------|:---:| ---
 [Et tu, Brute?][A1]                                |  5  |
 [Welcome to PACTF!][A2]                            |  10 |
 [Whence I Came][A3]                                |  10 |
