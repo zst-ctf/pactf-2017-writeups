@@ -1,0 +1,2028 @@
+mac.a2d451834887.out:
+(__TEXT,__text) section
+__Z10get_primesm:
+00000001000013f0	pushq	%rbp
+00000001000013f1	movq	%rsp, %rbp
+00000001000013f4	subq	$0x1e0, %rsp            ## imm = 0x1E0
+00000001000013fb	movq	%rdi, %rax
+00000001000013fe	movq	%rsi, -0x180(%rbp)
+0000000100001405	movb	$0x0, -0x181(%rbp)
+000000010000140c	movq	%rdi, -0x178(%rbp)
+0000000100001413	movq	%rdi, -0x170(%rbp)
+000000010000141a	movq	%rdi, -0x150(%rbp)
+0000000100001421	movq	%rdi, -0x148(%rbp)
+0000000100001428	leaq	-0x90(%rbp), %rsi
+000000010000142f	movq	%rsi, -0x80(%rbp)
+0000000100001433	movq	$-0x1, -0x88(%rbp)
+000000010000143e	movq	-0x80(%rbp), %rsi
+0000000100001442	movq	%rsi, -0x70(%rbp)
+0000000100001446	movq	$-0x1, -0x78(%rbp)
+000000010000144e	movq	-0x70(%rbp), %rsi
+0000000100001452	movq	$0x0, (%rsi)
+0000000100001459	movq	-0x90(%rbp), %rsi
+0000000100001460	movq	%rsi, -0x158(%rbp)
+0000000100001467	leaq	-0x158(%rbp), %rsi
+000000010000146e	movq	%rsi, -0x98(%rbp)
+0000000100001475	movq	$0x0, (%rdi)
+000000010000147c	leaq	-0xc0(%rbp), %rsi
+0000000100001483	movq	%rsi, -0xb0(%rbp)
+000000010000148a	movq	$-0x1, -0xb8(%rbp)
+0000000100001495	movq	-0xb0(%rbp), %rsi
+000000010000149c	movq	%rsi, -0xa0(%rbp)
+00000001000014a3	movq	$-0x1, -0xa8(%rbp)
+00000001000014ae	movq	-0xa0(%rbp), %rsi
+00000001000014b5	movq	$0x0, (%rsi)
+00000001000014bc	movq	-0xc0(%rbp), %rsi
+00000001000014c3	movq	%rsi, -0x160(%rbp)
+00000001000014ca	leaq	-0x160(%rbp), %rsi
+00000001000014d1	movq	%rsi, -0xc8(%rbp)
+00000001000014d8	movq	$0x0, 0x8(%rdi)
+00000001000014e0	movq	%rdi, %rsi
+00000001000014e3	addq	$0x10, %rsi
+00000001000014e7	leaq	-0xf0(%rbp), %rcx
+00000001000014ee	movq	%rcx, -0xe0(%rbp)
+00000001000014f5	movq	$-0x1, -0xe8(%rbp)
+0000000100001500	movq	-0xe0(%rbp), %rcx
+0000000100001507	movq	%rcx, -0xd0(%rbp)
+000000010000150e	movq	$-0x1, -0xd8(%rbp)
+0000000100001519	movq	-0xd0(%rbp), %rcx
+0000000100001520	movq	$0x0, (%rcx)
+0000000100001527	movq	-0xf0(%rbp), %rcx
+000000010000152e	movq	%rcx, -0x168(%rbp)
+0000000100001535	leaq	-0x168(%rbp), %rcx
+000000010000153c	movq	%rcx, -0xf8(%rbp)
+0000000100001543	movq	%rsi, -0x138(%rbp)
+000000010000154a	movq	$0x0, -0x140(%rbp)
+0000000100001555	movq	-0x138(%rbp), %rcx
+000000010000155c	movq	%rcx, -0x128(%rbp)
+0000000100001563	movq	$0x0, -0x130(%rbp)
+000000010000156e	movq	-0x128(%rbp), %rcx
+0000000100001575	leaq	-0x130(%rbp), %rsi
+000000010000157c	movq	%rsi, -0x120(%rbp)
+0000000100001583	movq	-0x130(%rbp), %rsi
+000000010000158a	movq	%rcx, -0x110(%rbp)
+0000000100001591	movq	%rsi, -0x118(%rbp)
+0000000100001598	movq	-0x110(%rbp), %rcx
+000000010000159f	movq	%rcx, -0x108(%rbp)
+00000001000015a6	leaq	-0x118(%rbp), %rsi
+00000001000015ad	movq	%rsi, -0x100(%rbp)
+00000001000015b4	movq	-0x118(%rbp), %rsi
+00000001000015bb	movq	%rsi, (%rcx)
+00000001000015be	movq	-0x180(%rbp), %rcx
+00000001000015c5	shrq	$0x3, %rcx
+00000001000015c9	incq	%rcx
+00000001000015cc	movq	%rdi, -0x1b8(%rbp)
+00000001000015d3	movq	%rcx, %rdi
+00000001000015d6	movq	%rax, -0x1c0(%rbp)
+00000001000015dd	callq	0x100003cd6             ## symbol stub for: __Znam
+00000001000015e2	movq	%rax, -0x1c8(%rbp)
+00000001000015e9	jmp	0x1000015ee
+00000001000015ee	movl	$0xff, %esi
+00000001000015f3	movq	-0x1c8(%rbp), %rax
+00000001000015fa	movq	%rax, -0x190(%rbp)
+0000000100001601	movq	-0x190(%rbp), %rdi
+0000000100001608	movq	-0x180(%rbp), %rcx
+000000010000160f	shrq	$0x3, %rcx
+0000000100001613	addq	$0x1, %rcx
+0000000100001617	shlq	$0x0, %rcx
+000000010000161b	movq	%rcx, %rdx
+000000010000161e	callq	0x100003cfa             ## symbol stub for: _memset
+0000000100001623	movq	$0x2, -0x1a8(%rbp)
+000000010000162e	movq	-0x1a8(%rbp), %rax
+0000000100001635	cmpq	-0x180(%rbp), %rax
+000000010000163c	ja	0x10000182d
+0000000100001642	movl	$0x1, %eax
+0000000100001647	movq	-0x1a8(%rbp), %rcx
+000000010000164e	shrq	$0x3, %rcx
+0000000100001652	movq	-0x190(%rbp), %rdx
+0000000100001659	movsbl	(%rdx,%rcx), %esi
+000000010000165d	movq	-0x1a8(%rbp), %rcx
+0000000100001664	andq	$0x7, %rcx
+0000000100001668	movl	%ecx, %edi
+000000010000166a	movl	%edi, %ecx
+000000010000166c	shll	%cl, %eax
+000000010000166e	andl	%eax, %esi
+0000000100001670	cmpl	$0x0, %esi
+0000000100001673	je	0x100001811
+0000000100001679	leaq	-0x1a8(%rbp), %rax
+0000000100001680	movq	-0x1b8(%rbp), %rcx
+0000000100001687	movq	%rcx, -0x58(%rbp)
+000000010000168b	movq	%rax, -0x60(%rbp)
+000000010000168f	movq	-0x58(%rbp), %rax
+0000000100001693	movq	0x8(%rax), %rdx
+0000000100001697	movq	%rax, %rsi
+000000010000169a	movq	%rsi, -0x50(%rbp)
+000000010000169e	movq	-0x50(%rbp), %rsi
+00000001000016a2	addq	$0x10, %rsi
+00000001000016a6	movq	%rsi, -0x48(%rbp)
+00000001000016aa	movq	-0x48(%rbp), %rsi
+00000001000016ae	movq	%rsi, -0x40(%rbp)
+00000001000016b2	movq	-0x40(%rbp), %rsi
+00000001000016b6	cmpq	(%rsi), %rdx
+00000001000016b9	movq	%rax, -0x1d0(%rbp)
+00000001000016c0	je	0x100001757
+00000001000016c6	movl	$0x1, %eax
+00000001000016cb	movl	%eax, %edx
+00000001000016cd	leaq	-0x68(%rbp), %rdi
+00000001000016d1	movq	-0x1d0(%rbp), %rsi
+00000001000016d8	callq	__ZNSt3__16vectorImNS_9allocatorImEEE24__RAII_IncreaseAnnotatorC1ERKS3_m ## std::__1::vector<unsigned long, std::__1::allocator<unsigned long> >::__RAII_IncreaseAnnotator::__RAII_IncreaseAnnotator(std::__1::vector<unsigned long, std::__1::allocator<unsigned long> > const&, unsigned long)
+00000001000016dd	jmp	0x1000016e2
+00000001000016e2	leaq	-0x68(%rbp), %rdi
+00000001000016e6	movq	-0x1d0(%rbp), %rax
+00000001000016ed	movq	%rax, -0x38(%rbp)
+00000001000016f1	movq	-0x38(%rbp), %rax
+00000001000016f5	addq	$0x10, %rax
+00000001000016f9	movq	%rax, -0x30(%rbp)
+00000001000016fd	movq	-0x30(%rbp), %rax
+0000000100001701	movq	%rax, -0x28(%rbp)
+0000000100001705	movq	-0x28(%rbp), %rax
+0000000100001709	movq	-0x1d0(%rbp), %rcx
+0000000100001710	movq	0x8(%rcx), %rdx
+0000000100001714	movq	%rdx, -0x20(%rbp)
+0000000100001718	movq	-0x20(%rbp), %rdx
+000000010000171c	movq	-0x60(%rbp), %rsi
+0000000100001720	movq	%rax, -0x8(%rbp)
+0000000100001724	movq	%rdx, -0x10(%rbp)
+0000000100001728	movq	%rsi, -0x18(%rbp)
+000000010000172c	movq	-0x10(%rbp), %rax
+0000000100001730	movq	-0x18(%rbp), %rdx
+0000000100001734	movq	(%rdx), %rdx
+0000000100001737	movq	%rdx, (%rax)
+000000010000173a	callq	0x100003cac             ## symbol stub for: __ZNSt3__16vectorImNS_9allocatorImEEE24__RAII_IncreaseAnnotator6__doneEv
+000000010000173f	movq	-0x1d0(%rbp), %rax
+0000000100001746	movq	0x8(%rax), %rcx
+000000010000174a	addq	$0x8, %rcx
+000000010000174e	movq	%rcx, 0x8(%rax)
+0000000100001752	jmp	0x100001771
+0000000100001757	movq	-0x60(%rbp), %rsi
+000000010000175b	movq	-0x1d0(%rbp), %rdi
+0000000100001762	callq	0x100003ca6             ## symbol stub for: __ZNSt3__16vectorImNS_9allocatorImEEE21__push_back_slow_pathIKmEEvRT_
+0000000100001767	jmp	0x10000176c
+000000010000176c	jmp	0x100001771
+0000000100001771	jmp	0x100001776
+0000000100001776	movq	-0x1a8(%rbp), %rax
+000000010000177d	shlq	$0x1, %rax
+0000000100001781	movq	%rax, -0x1b0(%rbp)
+0000000100001788	movq	-0x1b0(%rbp), %rax
+000000010000178f	cmpq	-0x180(%rbp), %rax
+0000000100001796	ja	0x10000180c
+000000010000179c	movl	$0x1, %eax
+00000001000017a1	movq	-0x1b0(%rbp), %rcx
+00000001000017a8	andq	$0x7, %rcx
+00000001000017ac	movl	%ecx, %edx
+00000001000017ae	movl	%edx, %ecx
+00000001000017b0	shll	%cl, %eax
+00000001000017b2	xorl	$-0x1, %eax
+00000001000017b5	movq	-0x1b0(%rbp), %rsi
+00000001000017bc	shrq	$0x3, %rsi
+00000001000017c0	movq	-0x190(%rbp), %rdi
+00000001000017c7	movsbl	(%rdi,%rsi), %edx
+00000001000017cb	andl	%eax, %edx
+00000001000017cd	movb	%dl, %cl
+00000001000017cf	movb	%cl, (%rdi,%rsi)
+00000001000017d2	movq	-0x1a8(%rbp), %rax
+00000001000017d9	addq	-0x1b0(%rbp), %rax
+00000001000017e0	movq	%rax, -0x1b0(%rbp)
+00000001000017e7	jmp	0x100001788
+00000001000017ec	movl	%edx, %ecx
+00000001000017ee	movq	%rax, -0x198(%rbp)
+00000001000017f5	movl	%ecx, -0x19c(%rbp)
+00000001000017fb	movq	-0x1b8(%rbp), %rdi
+0000000100001802	callq	__ZNSt3__16vectorImNS_9allocatorImEEED1Ev ## std::__1::vector<unsigned long, std::__1::allocator<unsigned long> >::~vector()
+0000000100001807	jmp	0x100001881
+000000010000180c	jmp	0x100001811
+0000000100001811	jmp	0x100001816
+0000000100001816	movq	-0x1a8(%rbp), %rax
+000000010000181d	addq	$0x1, %rax
+0000000100001821	movq	%rax, -0x1a8(%rbp)
+0000000100001828	jmp	0x10000162e
+000000010000182d	movq	-0x190(%rbp), %rax
+0000000100001834	cmpq	$0x0, %rax
+0000000100001838	movq	%rax, -0x1d8(%rbp)
+000000010000183f	je	0x100001851
+0000000100001845	movq	-0x1d8(%rbp), %rdi
+000000010000184c	callq	0x100003cca             ## symbol stub for: __ZdaPv
+0000000100001851	movb	$0x1, -0x181(%rbp)
+0000000100001858	testb	$0x1, -0x181(%rbp)
+000000010000185f	jne	0x100001871
+0000000100001865	movq	-0x1b8(%rbp), %rdi
+000000010000186c	callq	__ZNSt3__16vectorImNS_9allocatorImEEED1Ev ## std::__1::vector<unsigned long, std::__1::allocator<unsigned long> >::~vector()
+0000000100001871	movq	-0x1c0(%rbp), %rax
+0000000100001878	addq	$0x1e0, %rsp            ## imm = 0x1E0
+000000010000187f	popq	%rbp
+0000000100001880	retq
+0000000100001881	jmp	0x100001886
+0000000100001886	movq	-0x198(%rbp), %rdi
+000000010000188d	callq	0x100003c4c             ## symbol stub for: __Unwind_Resume
+0000000100001892	movl	%edx, %ecx
+0000000100001894	movq	%rax, %rdi
+0000000100001897	movl	%ecx, -0x1dc(%rbp)
+000000010000189d	callq	___clang_call_terminate
+00000001000018a2	nopw	%cs:(%rax,%rax)
+__ZNSt3__16vectorImNS_9allocatorImEEED1Ev:
+00000001000018b0	pushq	%rbp
+00000001000018b1	movq	%rsp, %rbp
+00000001000018b4	subq	$0x10, %rsp
+00000001000018b8	movq	%rdi, -0x8(%rbp)
+00000001000018bc	movq	-0x8(%rbp), %rdi
+00000001000018c0	callq	__ZNSt3__16vectorImNS_9allocatorImEEED2Ev ## std::__1::vector<unsigned long, std::__1::allocator<unsigned long> >::~vector()
+00000001000018c5	addq	$0x10, %rsp
+00000001000018c9	popq	%rbp
+00000001000018ca	retq
+00000001000018cb	nopl	(%rax,%rax)
+___clang_call_terminate:
+00000001000018d0	pushq	%rax
+00000001000018d1	callq	0x100003ce2             ## symbol stub for: ___cxa_begin_catch
+00000001000018d6	movq	%rax, (%rsp)
+00000001000018da	callq	0x100003cc4             ## symbol stub for: __ZSt9terminatev
+00000001000018df	nop
+_main:
+00000001000018e0	pushq	%rbp
+00000001000018e1	movq	%rsp, %rbp
+00000001000018e4	subq	$0x2d0, %rsp            ## imm = 0x2D0
+00000001000018eb	movl	$0x0, -0x244(%rbp)
+00000001000018f5	leaq	-0x260(%rbp), %rax
+00000001000018fc	movq	%rax, -0x240(%rbp)
+0000000100001903	movq	%rax, -0x238(%rbp)
+000000010000190a	movq	%rax, -0x218(%rbp)
+0000000100001911	movq	%rax, -0x210(%rbp)
+0000000100001918	leaq	-0x158(%rbp), %rax
+000000010000191f	movq	%rax, -0x148(%rbp)
+0000000100001926	movq	$-0x1, -0x150(%rbp)
+0000000100001931	movq	-0x148(%rbp), %rax
+0000000100001938	movq	%rax, -0x138(%rbp)
+000000010000193f	movq	$-0x1, -0x140(%rbp)
+000000010000194a	movq	-0x138(%rbp), %rax
+0000000100001951	movq	$0x0, (%rax)
+0000000100001958	movq	-0x158(%rbp), %rax
+000000010000195f	movq	%rax, -0x220(%rbp)
+0000000100001966	leaq	-0x220(%rbp), %rax
+000000010000196d	movq	%rax, -0x160(%rbp)
+0000000100001974	movq	$0x0, -0x260(%rbp)
+000000010000197f	leaq	-0x188(%rbp), %rax
+0000000100001986	movq	%rax, -0x178(%rbp)
+000000010000198d	movq	$-0x1, -0x180(%rbp)
+0000000100001998	movq	-0x178(%rbp), %rax
+000000010000199f	movq	%rax, -0x168(%rbp)
+00000001000019a6	movq	$-0x1, -0x170(%rbp)
+00000001000019b1	movq	-0x168(%rbp), %rax
+00000001000019b8	movq	$0x0, (%rax)
+00000001000019bf	movq	-0x188(%rbp), %rax
+00000001000019c6	movq	%rax, -0x228(%rbp)
+00000001000019cd	leaq	-0x228(%rbp), %rax
+00000001000019d4	movq	%rax, -0x190(%rbp)
+00000001000019db	movq	$0x0, -0x258(%rbp)
+00000001000019e6	leaq	-0x250(%rbp), %rax
+00000001000019ed	leaq	-0x1b8(%rbp), %rcx
+00000001000019f4	movq	%rcx, -0x1a8(%rbp)
+00000001000019fb	movq	$-0x1, -0x1b0(%rbp)
+0000000100001a06	movq	-0x1a8(%rbp), %rcx
+0000000100001a0d	movq	%rcx, -0x198(%rbp)
+0000000100001a14	movq	$-0x1, -0x1a0(%rbp)
+0000000100001a1f	movq	-0x198(%rbp), %rcx
+0000000100001a26	movq	$0x0, (%rcx)
+0000000100001a2d	movq	-0x1b8(%rbp), %rcx
+0000000100001a34	movq	%rcx, -0x230(%rbp)
+0000000100001a3b	leaq	-0x230(%rbp), %rcx
+0000000100001a42	movq	%rcx, -0x1c0(%rbp)
+0000000100001a49	movq	%rax, -0x200(%rbp)
+0000000100001a50	movq	$0x0, -0x208(%rbp)
+0000000100001a5b	movq	-0x200(%rbp), %rax
+0000000100001a62	movq	%rax, -0x1f0(%rbp)
+0000000100001a69	movq	$0x0, -0x1f8(%rbp)
+0000000100001a74	movq	-0x1f0(%rbp), %rax
+0000000100001a7b	leaq	-0x1f8(%rbp), %rcx
+0000000100001a82	movq	%rcx, -0x1e8(%rbp)
+0000000100001a89	movq	-0x1f8(%rbp), %rcx
+0000000100001a90	movq	%rax, -0x1d8(%rbp)
+0000000100001a97	movq	%rcx, -0x1e0(%rbp)
+0000000100001a9e	movq	-0x1d8(%rbp), %rax
+0000000100001aa5	movq	%rax, -0x1d0(%rbp)
+0000000100001aac	leaq	-0x1e0(%rbp), %rcx
+0000000100001ab3	movq	%rcx, -0x1c8(%rbp)
+0000000100001aba	movq	-0x1e0(%rbp), %rcx
+0000000100001ac1	movq	%rcx, (%rax)
+0000000100001ac4	movl	$0x7ffffffc, %edx       ## imm = 0x7FFFFFFC
+0000000100001ac9	movl	%edx, %esi
+0000000100001acb	leaq	-0x278(%rbp), %rdi
+0000000100001ad2	callq	__Z10get_primesm        ## get_primes(unsigned long)
+0000000100001ad7	jmp	0x100001adc
+0000000100001adc	leaq	-0x278(%rbp), %rax
+0000000100001ae3	leaq	-0x260(%rbp), %rcx
+0000000100001aea	movq	%rcx, -0x128(%rbp)
+0000000100001af1	movq	%rax, -0x130(%rbp)
+0000000100001af8	movq	-0x128(%rbp), %rax
+0000000100001aff	cmpq	-0x130(%rbp), %rax
+0000000100001b06	movq	%rax, -0x2b8(%rbp)
+0000000100001b0d	je	0x100001b64
+0000000100001b13	movq	-0x130(%rbp), %rax
+0000000100001b1a	movq	-0x2b8(%rbp), %rcx
+0000000100001b21	movq	%rcx, -0x110(%rbp)
+0000000100001b28	movq	%rax, -0x118(%rbp)
+0000000100001b2f	movq	-0x110(%rbp), %rdx
+0000000100001b36	movq	%rdx, -0x100(%rbp)
+0000000100001b3d	movq	%rax, -0x108(%rbp)
+0000000100001b44	movq	-0x130(%rbp), %rax
+0000000100001b4b	movq	(%rax), %rsi
+0000000100001b4e	movq	0x8(%rax), %rdx
+0000000100001b52	movq	%rcx, %rdi
+0000000100001b55	callq	0x100003cb8             ## symbol stub for: __ZNSt3__16vectorImNS_9allocatorImEEE6assignIPmEENS_9enable_ifIXaasr21__is_forward_iteratorIT_EE5valuesr16is_constructibleImNS_15iterator_traitsIS7_E9referenceEEE5valueEvE4typeES7_S7_
+0000000100001b5a	jmp	0x100001b5f
+0000000100001b5f	jmp	0x100001b64
+0000000100001b64	jmp	0x100001b69
+0000000100001b69	leaq	-0x278(%rbp), %rdi
+0000000100001b70	callq	__ZNSt3__16vectorImNS_9allocatorImEEED1Ev ## std::__1::vector<unsigned long, std::__1::allocator<unsigned long> >::~vector()
+0000000100001b75	jmp	0x100001b7a
+0000000100001b7a	leaq	-0x290(%rbp), %rax
+0000000100001b81	movq	%rax, -0xf8(%rbp)
+0000000100001b88	movq	-0xf8(%rbp), %rax
+0000000100001b8f	movq	%rax, -0xf0(%rbp)
+0000000100001b96	movl	$0x0, -0x294(%rbp)
+0000000100001ba0	movl	$0x0, -0x298(%rbp)
+0000000100001baa	cmpl	$0xf4240, -0x298(%rbp)  ## imm = 0xF4240
+0000000100001bb4	jge	0x100001da9
+0000000100001bba	leaq	-0xc8(%rbp), %rax
+0000000100001bc1	leaq	-0x260(%rbp), %rcx
+0000000100001bc8	movq	%rcx, -0xe8(%rbp)
+0000000100001bcf	movq	-0xe8(%rbp), %rcx
+0000000100001bd6	movq	(%rcx), %rdx
+0000000100001bd9	movq	%rcx, -0xd0(%rbp)
+0000000100001be0	movq	%rdx, -0xd8(%rbp)
+0000000100001be7	movq	-0xd8(%rbp), %rcx
+0000000100001bee	movq	%rax, -0xb8(%rbp)
+0000000100001bf5	movq	%rcx, -0xc0(%rbp)
+0000000100001bfc	movq	-0xb8(%rbp), %rax
+0000000100001c03	movq	-0xc0(%rbp), %rcx
+0000000100001c0a	movq	%rax, -0xa8(%rbp)
+0000000100001c11	movq	%rcx, -0xb0(%rbp)
+0000000100001c18	movq	-0xa8(%rbp), %rax
+0000000100001c1f	movq	-0xb0(%rbp), %rcx
+0000000100001c26	movq	%rcx, (%rax)
+0000000100001c29	movq	-0xc8(%rbp), %rax
+0000000100001c30	movq	%rax, -0xe0(%rbp)
+0000000100001c37	movq	-0xe0(%rbp), %rax
+0000000100001c3e	movq	%rax, -0x2a0(%rbp)
+0000000100001c45	movq	-0x2a0(%rbp), %rax
+0000000100001c4c	movq	%rax, -0x290(%rbp)
+0000000100001c53	leaq	-0x2a8(%rbp), %rax
+0000000100001c5a	leaq	-0x290(%rbp), %rcx
+0000000100001c61	leaq	-0x80(%rbp), %rdx
+0000000100001c65	leaq	-0x260(%rbp), %rsi
+0000000100001c6c	movq	%rsi, -0xa0(%rbp)
+0000000100001c73	movq	-0xa0(%rbp), %rsi
+0000000100001c7a	movq	0x8(%rsi), %rdi
+0000000100001c7e	movq	%rsi, -0x88(%rbp)
+0000000100001c85	movq	%rdi, -0x90(%rbp)
+0000000100001c8c	movq	-0x90(%rbp), %rsi
+0000000100001c93	movq	%rdx, -0x70(%rbp)
+0000000100001c97	movq	%rsi, -0x78(%rbp)
+0000000100001c9b	movq	-0x70(%rbp), %rdx
+0000000100001c9f	movq	-0x78(%rbp), %rsi
+0000000100001ca3	movq	%rdx, -0x60(%rbp)
+0000000100001ca7	movq	%rsi, -0x68(%rbp)
+0000000100001cab	movq	-0x60(%rbp), %rdx
+0000000100001caf	movq	-0x68(%rbp), %rsi
+0000000100001cb3	movq	%rsi, (%rdx)
+0000000100001cb6	movq	-0x80(%rbp), %rdx
+0000000100001cba	movq	%rdx, -0x98(%rbp)
+0000000100001cc1	movq	-0x98(%rbp), %rdx
+0000000100001cc8	movq	%rdx, -0x2a8(%rbp)
+0000000100001ccf	movq	%rcx, -0x40(%rbp)
+0000000100001cd3	movq	%rax, -0x48(%rbp)
+0000000100001cd7	movq	-0x40(%rbp), %rax
+0000000100001cdb	movq	%rax, -0x38(%rbp)
+0000000100001cdf	movq	-0x38(%rbp), %rax
+0000000100001ce3	movq	(%rax), %rax
+0000000100001ce6	movq	-0x48(%rbp), %rcx
+0000000100001cea	movq	%rcx, -0x30(%rbp)
+0000000100001cee	movq	-0x30(%rbp), %rcx
+0000000100001cf2	cmpq	(%rcx), %rax
+0000000100001cf5	jae	0x100001d90
+0000000100001cfb	leaq	-0x290(%rbp), %rax
+0000000100001d02	movq	%rax, -0x28(%rbp)
+0000000100001d06	movq	-0x28(%rbp), %rax
+0000000100001d0a	movq	(%rax), %rax
+0000000100001d0d	movq	(%rax), %rax
+0000000100001d10	movl	%eax, %ecx
+0000000100001d12	movl	%ecx, -0x294(%rbp)
+0000000100001d18	leaq	-0x290(%rbp), %rax
+0000000100001d1f	movq	%rax, -0x18(%rbp)
+0000000100001d23	movl	$0x0, -0x1c(%rbp)
+0000000100001d2a	movq	-0x18(%rbp), %rax
+0000000100001d2e	movq	(%rax), %rcx
+0000000100001d31	movq	%rcx, -0x10(%rbp)
+0000000100001d35	movq	%rax, -0x8(%rbp)
+0000000100001d39	movq	-0x8(%rbp), %rax
+0000000100001d3d	movq	(%rax), %rcx
+0000000100001d40	addq	$0x8, %rcx
+0000000100001d44	movq	%rcx, (%rax)
+0000000100001d47	movq	-0x10(%rbp), %rax
+0000000100001d4b	movq	%rax, -0x2b0(%rbp)
+0000000100001d52	jmp	0x100001c53
+0000000100001d57	movl	%edx, %ecx
+0000000100001d59	movq	%rax, -0x280(%rbp)
+0000000100001d60	movl	%ecx, -0x284(%rbp)
+0000000100001d66	jmp	0x100001e19
+0000000100001d6b	movl	%edx, %ecx
+0000000100001d6d	movq	%rax, -0x280(%rbp)
+0000000100001d74	movl	%ecx, -0x284(%rbp)
+0000000100001d7a	leaq	-0x278(%rbp), %rdi
+0000000100001d81	callq	__ZNSt3__16vectorImNS_9allocatorImEEED1Ev ## std::__1::vector<unsigned long, std::__1::allocator<unsigned long> >::~vector()
+0000000100001d86	jmp	0x100001d8b
+0000000100001d8b	jmp	0x100001e19
+0000000100001d90	jmp	0x100001d95
+0000000100001d95	movl	-0x298(%rbp), %eax
+0000000100001d9b	addl	$0x1, %eax
+0000000100001d9e	movl	%eax, -0x298(%rbp)
+0000000100001da4	jmp	0x100001baa
+0000000100001da9	movl	-0x294(%rbp), %esi
+0000000100001daf	movq	0x224a(%rip), %rdi      ## literal pool symbol address: __ZNSt3__14coutE
+0000000100001db6	callq	0x100003c8e             ## symbol stub for: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEi
+0000000100001dbb	movq	%rax, -0x2c0(%rbp)
+0000000100001dc2	jmp	0x100001dc7
+0000000100001dc7	movq	-0x2c0(%rbp), %rax
+0000000100001dce	movq	%rax, -0x50(%rbp)
+0000000100001dd2	leaq	__ZNSt3__14endlIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_(%rip), %rcx ## std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::endl<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)
+0000000100001dd9	movq	%rcx, -0x58(%rbp)
+0000000100001ddd	movq	-0x50(%rbp), %rdi
+0000000100001de1	callq	*%rcx
+0000000100001de3	movq	%rax, -0x2c8(%rbp)
+0000000100001dea	jmp	0x100001def
+0000000100001def	jmp	0x100001df4
+0000000100001df4	leaq	-0x260(%rbp), %rdi
+0000000100001dfb	movl	$0x0, -0x244(%rbp)
+0000000100001e05	callq	__ZNSt3__16vectorImNS_9allocatorImEEED1Ev ## std::__1::vector<unsigned long, std::__1::allocator<unsigned long> >::~vector()
+0000000100001e0a	movl	-0x244(%rbp), %eax
+0000000100001e10	addq	$0x2d0, %rsp            ## imm = 0x2D0
+0000000100001e17	popq	%rbp
+0000000100001e18	retq
+0000000100001e19	leaq	-0x260(%rbp), %rdi
+0000000100001e20	callq	__ZNSt3__16vectorImNS_9allocatorImEEED1Ev ## std::__1::vector<unsigned long, std::__1::allocator<unsigned long> >::~vector()
+0000000100001e25	jmp	0x100001e2a
+0000000100001e2a	jmp	0x100001e2f
+0000000100001e2f	movq	-0x280(%rbp), %rdi
+0000000100001e36	callq	0x100003c4c             ## symbol stub for: __Unwind_Resume
+0000000100001e3b	movl	%edx, %ecx
+0000000100001e3d	movq	%rax, %rdi
+0000000100001e40	movl	%ecx, -0x2cc(%rbp)
+0000000100001e46	callq	___clang_call_terminate
+0000000100001e4b	nopl	(%rax,%rax)
+__ZNSt3__14endlIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_:
+0000000100001e50	pushq	%rbp
+0000000100001e51	movq	%rsp, %rbp
+0000000100001e54	subq	$0x90, %rsp
+0000000100001e5b	movq	%rdi, -0x48(%rbp)
+0000000100001e5f	movq	%rdi, %rax
+0000000100001e62	movq	(%rdi), %rcx
+0000000100001e65	movq	-0x18(%rcx), %rcx
+0000000100001e69	addq	%rcx, %rdi
+0000000100001e6c	movq	%rdi, -0x20(%rbp)
+0000000100001e70	movb	$0xa, -0x21(%rbp)
+0000000100001e74	movq	-0x20(%rbp), %rsi
+0000000100001e78	leaq	-0x30(%rbp), %rcx
+0000000100001e7c	movq	%rcx, %rdi
+0000000100001e7f	movq	%rax, -0x50(%rbp)
+0000000100001e83	movq	%rcx, -0x58(%rbp)
+0000000100001e87	callq	0x100003c7c             ## symbol stub for: __ZNKSt3__18ios_base6getlocEv
+0000000100001e8c	movq	-0x58(%rbp), %rax
+0000000100001e90	movq	%rax, -0x18(%rbp)
+0000000100001e94	movq	0x216d(%rip), %rsi      ## literal pool symbol address: __ZNSt3__15ctypeIcE2idE
+0000000100001e9b	movq	%rax, %rdi
+0000000100001e9e	callq	0x100003c58             ## symbol stub for: __ZNKSt3__16locale9use_facetERNS0_2idE
+0000000100001ea3	movq	%rax, -0x60(%rbp)
+0000000100001ea7	jmp	0x100001eac
+0000000100001eac	movb	-0x21(%rbp), %al
+0000000100001eaf	movq	-0x60(%rbp), %rcx
+0000000100001eb3	movq	%rcx, -0x8(%rbp)
+0000000100001eb7	movb	%al, -0x9(%rbp)
+0000000100001eba	movq	-0x8(%rbp), %rdx
+0000000100001ebe	movq	(%rdx), %rsi
+0000000100001ec1	movq	0x38(%rsi), %rsi
+0000000100001ec5	movsbl	-0x9(%rbp), %edi
+0000000100001ec9	movl	%edi, -0x64(%rbp)
+0000000100001ecc	movq	%rdx, %rdi
+0000000100001ecf	movl	-0x64(%rbp), %r8d
+0000000100001ed3	movq	%rsi, -0x70(%rbp)
+0000000100001ed7	movl	%r8d, %esi
+0000000100001eda	movq	-0x70(%rbp), %rdx
+0000000100001ede	callq	*%rdx
+0000000100001ee0	movb	%al, -0x71(%rbp)
+0000000100001ee3	jmp	0x100001f15
+0000000100001ee8	movl	%edx, %ecx
+0000000100001eea	movq	%rax, -0x38(%rbp)
+0000000100001eee	movl	%ecx, -0x3c(%rbp)
+0000000100001ef1	leaq	-0x30(%rbp), %rdi
+0000000100001ef5	callq	0x100003c94             ## symbol stub for: __ZNSt3__16localeD1Ev
+0000000100001efa	jmp	0x100001eff
+0000000100001eff	movq	-0x38(%rbp), %rdi
+0000000100001f03	callq	0x100003c4c             ## symbol stub for: __Unwind_Resume
+0000000100001f08	movl	%edx, %ecx
+0000000100001f0a	movq	%rax, %rdi
+0000000100001f0d	movl	%ecx, -0x78(%rbp)
+0000000100001f10	callq	___clang_call_terminate
+0000000100001f15	leaq	-0x30(%rbp), %rdi
+0000000100001f19	callq	0x100003c94             ## symbol stub for: __ZNSt3__16localeD1Ev
+0000000100001f1e	movq	-0x50(%rbp), %rdi
+0000000100001f22	movb	-0x71(%rbp), %al
+0000000100001f25	movsbl	%al, %esi
+0000000100001f28	callq	0x100003c82             ## symbol stub for: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE3putEc
+0000000100001f2d	movq	-0x48(%rbp), %rdi
+0000000100001f31	movq	%rax, -0x80(%rbp)
+0000000100001f35	callq	0x100003c88             ## symbol stub for: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE5flushEv
+0000000100001f3a	movq	-0x48(%rbp), %rdi
+0000000100001f3e	movq	%rax, -0x88(%rbp)
+0000000100001f45	movq	%rdi, %rax
+0000000100001f48	addq	$0x90, %rsp
+0000000100001f4f	popq	%rbp
+0000000100001f50	retq
+0000000100001f51	nopw	%cs:(%rax,%rax)
+__ZNSt3__16vectorImNS_9allocatorImEEED2Ev:
+0000000100001f60	pushq	%rbp
+0000000100001f61	movq	%rsp, %rbp
+0000000100001f64	subq	$0x10, %rsp
+0000000100001f68	movq	%rdi, -0x8(%rbp)
+0000000100001f6c	movq	-0x8(%rbp), %rdi
+0000000100001f70	callq	__ZNSt3__113__vector_baseImNS_9allocatorImEEED2Ev ## std::__1::__vector_base<unsigned long, std::__1::allocator<unsigned long> >::~__vector_base()
+0000000100001f75	addq	$0x10, %rsp
+0000000100001f79	popq	%rbp
+0000000100001f7a	retq
+0000000100001f7b	nopl	(%rax,%rax)
+__ZNSt3__113__vector_baseImNS_9allocatorImEEED2Ev:
+0000000100001f80	pushq	%rbp
+0000000100001f81	movq	%rsp, %rbp
+0000000100001f84	subq	$0x150, %rsp            ## imm = 0x150
+0000000100001f8b	leaq	-0x138(%rbp), %rax
+0000000100001f92	leaq	-0x128(%rbp), %rcx
+0000000100001f99	movq	%rdi, -0x130(%rbp)
+0000000100001fa0	movq	-0x130(%rbp), %rdi
+0000000100001fa7	movq	(%rdi), %rdx
+0000000100001faa	movq	%rcx, -0x118(%rbp)
+0000000100001fb1	movq	$-0x1, -0x120(%rbp)
+0000000100001fbc	movq	-0x118(%rbp), %rcx
+0000000100001fc3	movq	-0x120(%rbp), %rsi
+0000000100001fca	movq	%rcx, -0x108(%rbp)
+0000000100001fd1	movq	%rsi, -0x110(%rbp)
+0000000100001fd8	movq	-0x108(%rbp), %rcx
+0000000100001fdf	movq	$0x0, (%rcx)
+0000000100001fe6	movq	-0x128(%rbp), %rcx
+0000000100001fed	movq	%rcx, -0x138(%rbp)
+0000000100001ff4	movq	%rax, -0xb8(%rbp)
+0000000100001ffb	cmpq	$0x0, %rdx
+0000000100001fff	movq	%rdi, -0x140(%rbp)
+0000000100002006	je	0x10000216e
+000000010000200c	movq	-0x140(%rbp), %rax
+0000000100002013	movq	%rax, -0x78(%rbp)
+0000000100002017	movq	-0x78(%rbp), %rcx
+000000010000201b	movq	(%rcx), %rdx
+000000010000201e	movq	%rcx, -0x58(%rbp)
+0000000100002022	movq	%rdx, -0x60(%rbp)
+0000000100002026	movq	-0x58(%rbp), %rcx
+000000010000202a	movq	%rcx, -0x148(%rbp)
+0000000100002031	movq	-0x60(%rbp), %rax
+0000000100002035	movq	-0x148(%rbp), %rcx
+000000010000203c	cmpq	0x8(%rcx), %rax
+0000000100002040	je	0x10000209a
+0000000100002046	movq	-0x148(%rbp), %rax
+000000010000204d	movq	%rax, -0x50(%rbp)
+0000000100002051	movq	-0x50(%rbp), %rcx
+0000000100002055	addq	$0x10, %rcx
+0000000100002059	movq	%rcx, -0x48(%rbp)
+000000010000205d	movq	-0x48(%rbp), %rcx
+0000000100002061	movq	%rcx, -0x40(%rbp)
+0000000100002065	movq	-0x40(%rbp), %rcx
+0000000100002069	movq	0x8(%rax), %rdx
+000000010000206d	addq	$-0x8, %rdx
+0000000100002071	movq	%rdx, 0x8(%rax)
+0000000100002075	movq	%rdx, -0x8(%rbp)
+0000000100002079	movq	-0x8(%rbp), %rdx
+000000010000207d	movq	%rcx, -0x20(%rbp)
+0000000100002081	movq	%rdx, -0x28(%rbp)
+0000000100002085	movq	-0x20(%rbp), %rcx
+0000000100002089	movq	-0x28(%rbp), %rdx
+000000010000208d	movq	%rcx, -0x10(%rbp)
+0000000100002091	movq	%rdx, -0x18(%rbp)
+0000000100002095	jmp	0x100002031
+000000010000209a	movq	-0x140(%rbp), %rax
+00000001000020a1	movq	%rax, -0x90(%rbp)
+00000001000020a8	movq	-0x90(%rbp), %rcx
+00000001000020af	addq	$0x10, %rcx
+00000001000020b3	movq	%rcx, -0x88(%rbp)
+00000001000020ba	movq	-0x88(%rbp), %rcx
+00000001000020c1	movq	%rcx, -0x80(%rbp)
+00000001000020c5	movq	-0x80(%rbp), %rcx
+00000001000020c9	movq	(%rax), %rdx
+00000001000020cc	movq	%rax, -0xb0(%rbp)
+00000001000020d3	movq	-0xb0(%rbp), %rsi
+00000001000020da	movq	%rsi, -0xa8(%rbp)
+00000001000020e1	movq	-0xa8(%rbp), %rdi
+00000001000020e8	addq	$0x10, %rdi
+00000001000020ec	movq	%rdi, -0xa0(%rbp)
+00000001000020f3	movq	-0xa0(%rbp), %rdi
+00000001000020fa	movq	%rdi, -0x98(%rbp)
+0000000100002101	movq	-0x98(%rbp), %rdi
+0000000100002108	movq	(%rdi), %rdi
+000000010000210b	movq	(%rsi), %rsi
+000000010000210e	subq	%rsi, %rdi
+0000000100002111	sarq	$0x3, %rdi
+0000000100002115	movq	%rcx, -0xf0(%rbp)
+000000010000211c	movq	%rdx, -0xf8(%rbp)
+0000000100002123	movq	%rdi, -0x100(%rbp)
+000000010000212a	movq	-0xf0(%rbp), %rcx
+0000000100002131	movq	-0xf8(%rbp), %rdx
+0000000100002138	movq	-0x100(%rbp), %rsi
+000000010000213f	movq	%rcx, -0xc8(%rbp)
+0000000100002146	movq	%rdx, -0xd0(%rbp)
+000000010000214d	movq	%rsi, -0xd8(%rbp)
+0000000100002154	movq	-0xd0(%rbp), %rcx
+000000010000215b	movq	%rcx, -0xc0(%rbp)
+0000000100002162	movq	-0xc0(%rbp), %rdi
+0000000100002169	callq	0x100003cd0             ## symbol stub for: __ZdlPv
+000000010000216e	addq	$0x150, %rsp            ## imm = 0x150
+0000000100002175	popq	%rbp
+0000000100002176	retq
+0000000100002177	nopw	(%rax,%rax)
+__ZNSt3__16vectorImNS_9allocatorImEEE24__RAII_IncreaseAnnotatorC1ERKS3_m:
+0000000100002180	pushq	%rbp
+0000000100002181	movq	%rsp, %rbp
+0000000100002184	subq	$0x20, %rsp
+0000000100002188	movq	%rdi, -0x8(%rbp)
+000000010000218c	movq	%rsi, -0x10(%rbp)
+0000000100002190	movq	%rdx, -0x18(%rbp)
+0000000100002194	movq	-0x8(%rbp), %rdi
+0000000100002198	movq	-0x10(%rbp), %rsi
+000000010000219c	movq	-0x18(%rbp), %rdx
+00000001000021a0	callq	__ZNSt3__16vectorImNS_9allocatorImEEE24__RAII_IncreaseAnnotatorC2ERKS3_m ## std::__1::vector<unsigned long, std::__1::allocator<unsigned long> >::__RAII_IncreaseAnnotator::__RAII_IncreaseAnnotator(std::__1::vector<unsigned long, std::__1::allocator<unsigned long> > const&, unsigned long)
+00000001000021a5	addq	$0x20, %rsp
+00000001000021a9	popq	%rbp
+00000001000021aa	retq
+00000001000021ab	nopl	(%rax,%rax)
+__ZNSt3__16vectorImNS_9allocatorImEEE24__RAII_IncreaseAnnotator6__doneEv:
+00000001000021b0	pushq	%rbp
+00000001000021b1	movq	%rsp, %rbp
+00000001000021b4	movq	%rdi, -0x8(%rbp)
+00000001000021b8	popq	%rbp
+00000001000021b9	retq
+00000001000021ba	nopw	(%rax,%rax)
+__ZNSt3__16vectorImNS_9allocatorImEEE21__push_back_slow_pathIKmEEvRT_:
+00000001000021c0	pushq	%rbp
+00000001000021c1	movq	%rsp, %rbp
+00000001000021c4	subq	$0x160, %rsp            ## imm = 0x160
+00000001000021cb	movq	%rdi, -0xf8(%rbp)
+00000001000021d2	movq	%rsi, -0x100(%rbp)
+00000001000021d9	movq	-0xf8(%rbp), %rsi
+00000001000021e0	movq	%rsi, %rdi
+00000001000021e3	movq	%rdi, -0xf0(%rbp)
+00000001000021ea	movq	-0xf0(%rbp), %rdi
+00000001000021f1	addq	$0x10, %rdi
+00000001000021f5	movq	%rdi, -0xe8(%rbp)
+00000001000021fc	movq	-0xe8(%rbp), %rdi
+0000000100002203	movq	%rdi, -0xe0(%rbp)
+000000010000220a	movq	-0xe0(%rbp), %rdi
+0000000100002211	movq	%rdi, -0x108(%rbp)
+0000000100002218	movq	%rsi, -0xd8(%rbp)
+000000010000221f	movq	-0xd8(%rbp), %rdi
+0000000100002226	movq	0x8(%rdi), %rax
+000000010000222a	movq	(%rdi), %rdi
+000000010000222d	subq	%rdi, %rax
+0000000100002230	sarq	$0x3, %rax
+0000000100002234	addq	$0x1, %rax
+0000000100002238	movq	%rsi, -0xb0(%rbp)
+000000010000223f	movq	%rax, -0xb8(%rbp)
+0000000100002246	movq	-0xb0(%rbp), %rax
+000000010000224d	movq	%rax, %rdi
+0000000100002250	movq	%rsi, -0x148(%rbp)
+0000000100002257	movq	%rax, -0x150(%rbp)
+000000010000225e	callq	0x100003c76             ## symbol stub for: __ZNKSt3__16vectorImNS_9allocatorImEEE8max_sizeEv
+0000000100002263	movq	%rax, -0xc0(%rbp)
+000000010000226a	movq	-0xb8(%rbp), %rax
+0000000100002271	cmpq	-0xc0(%rbp), %rax
+0000000100002278	jbe	0x10000228d
+000000010000227e	movq	-0x150(%rbp), %rax
+0000000100002285	movq	%rax, %rdi
+0000000100002288	callq	0x100003c52             ## symbol stub for: __ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv
+000000010000228d	movq	-0x150(%rbp), %rax
+0000000100002294	movq	%rax, -0xa0(%rbp)
+000000010000229b	movq	-0xa0(%rbp), %rcx
+00000001000022a2	movq	%rcx, -0x98(%rbp)
+00000001000022a9	movq	-0x98(%rbp), %rcx
+00000001000022b0	movq	%rcx, -0x90(%rbp)
+00000001000022b7	movq	-0x90(%rbp), %rdx
+00000001000022be	addq	$0x10, %rdx
+00000001000022c2	movq	%rdx, -0x88(%rbp)
+00000001000022c9	movq	-0x88(%rbp), %rdx
+00000001000022d0	movq	%rdx, -0x80(%rbp)
+00000001000022d4	movq	-0x80(%rbp), %rdx
+00000001000022d8	movq	(%rdx), %rdx
+00000001000022db	movq	(%rcx), %rcx
+00000001000022de	subq	%rcx, %rdx
+00000001000022e1	sarq	$0x3, %rdx
+00000001000022e5	movq	%rdx, -0xc8(%rbp)
+00000001000022ec	movq	-0xc8(%rbp), %rcx
+00000001000022f3	movq	-0xc0(%rbp), %rdx
+00000001000022fa	shrq	$0x1, %rdx
+00000001000022fe	cmpq	%rdx, %rcx
+0000000100002301	jb	0x10000231a
+0000000100002307	movq	-0xc0(%rbp), %rax
+000000010000230e	movq	%rax, -0xa8(%rbp)
+0000000100002315	jmp	0x1000023aa
+000000010000231a	leaq	-0x50(%rbp), %rax
+000000010000231e	leaq	-0xb8(%rbp), %rcx
+0000000100002325	leaq	-0xd0(%rbp), %rdx
+000000010000232c	movq	-0xc8(%rbp), %rsi
+0000000100002333	shlq	$0x1, %rsi
+0000000100002337	movq	%rsi, -0xd0(%rbp)
+000000010000233e	movq	%rdx, -0x68(%rbp)
+0000000100002342	movq	%rcx, -0x70(%rbp)
+0000000100002346	movq	-0x68(%rbp), %rcx
+000000010000234a	movq	-0x70(%rbp), %rdx
+000000010000234e	movq	%rcx, -0x58(%rbp)
+0000000100002352	movq	%rdx, -0x60(%rbp)
+0000000100002356	movq	-0x58(%rbp), %rcx
+000000010000235a	movq	-0x60(%rbp), %rdx
+000000010000235e	movq	%rax, -0x38(%rbp)
+0000000100002362	movq	%rcx, -0x40(%rbp)
+0000000100002366	movq	%rdx, -0x48(%rbp)
+000000010000236a	movq	-0x40(%rbp), %rax
+000000010000236e	movq	(%rax), %rax
+0000000100002371	movq	-0x48(%rbp), %rcx
+0000000100002375	cmpq	(%rcx), %rax
+0000000100002378	jae	0x10000238e
+000000010000237e	movq	-0x60(%rbp), %rax
+0000000100002382	movq	%rax, -0x158(%rbp)
+0000000100002389	jmp	0x100002399
+000000010000238e	movq	-0x58(%rbp), %rax
+0000000100002392	movq	%rax, -0x158(%rbp)
+0000000100002399	movq	-0x158(%rbp), %rax
+00000001000023a0	movq	(%rax), %rax
+00000001000023a3	movq	%rax, -0xa8(%rbp)
+00000001000023aa	leaq	-0x130(%rbp), %rdi
+00000001000023b1	movq	-0xa8(%rbp), %rsi
+00000001000023b8	movq	-0x148(%rbp), %rax
+00000001000023bf	movq	%rax, -0x30(%rbp)
+00000001000023c3	movq	-0x30(%rbp), %rcx
+00000001000023c7	movq	0x8(%rcx), %rdx
+00000001000023cb	movq	(%rcx), %rcx
+00000001000023ce	subq	%rcx, %rdx
+00000001000023d1	sarq	$0x3, %rdx
+00000001000023d5	movq	-0x108(%rbp), %rcx
+00000001000023dc	callq	__ZNSt3__114__split_bufferImRNS_9allocatorImEEEC1EmmS3_ ## std::__1::__split_buffer<unsigned long, std::__1::allocator<unsigned long>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<unsigned long>&)
+00000001000023e1	movq	-0x108(%rbp), %rax
+00000001000023e8	movq	-0x120(%rbp), %rcx
+00000001000023ef	movq	%rcx, -0x28(%rbp)
+00000001000023f3	movq	-0x28(%rbp), %rcx
+00000001000023f7	movq	-0x100(%rbp), %rdx
+00000001000023fe	movq	%rdx, -0x20(%rbp)
+0000000100002402	movq	-0x20(%rbp), %rdx
+0000000100002406	movq	%rax, -0x8(%rbp)
+000000010000240a	movq	%rcx, -0x10(%rbp)
+000000010000240e	movq	%rdx, -0x18(%rbp)
+0000000100002412	movq	-0x10(%rbp), %rax
+0000000100002416	movq	-0x18(%rbp), %rcx
+000000010000241a	movq	(%rcx), %rcx
+000000010000241d	movq	%rcx, (%rax)
+0000000100002420	movq	-0x120(%rbp), %rax
+0000000100002427	addq	$0x8, %rax
+000000010000242b	movq	%rax, -0x120(%rbp)
+0000000100002432	leaq	-0x130(%rbp), %rsi
+0000000100002439	movq	-0x148(%rbp), %rdi
+0000000100002440	callq	0x100003cb2             ## symbol stub for: __ZNSt3__16vectorImNS_9allocatorImEEE26__swap_out_circular_bufferERNS_14__split_bufferImRS2_EE
+0000000100002445	jmp	0x10000244a
+000000010000244a	leaq	-0x130(%rbp), %rdi
+0000000100002451	callq	__ZNSt3__114__split_bufferImRNS_9allocatorImEEED1Ev ## std::__1::__split_buffer<unsigned long, std::__1::allocator<unsigned long>&>::~__split_buffer()
+0000000100002456	addq	$0x160, %rsp            ## imm = 0x160
+000000010000245d	popq	%rbp
+000000010000245e	retq
+000000010000245f	movl	%edx, %ecx
+0000000100002461	movq	%rax, -0x138(%rbp)
+0000000100002468	movl	%ecx, -0x13c(%rbp)
+000000010000246e	leaq	-0x130(%rbp), %rdi
+0000000100002475	callq	__ZNSt3__114__split_bufferImRNS_9allocatorImEEED1Ev ## std::__1::__split_buffer<unsigned long, std::__1::allocator<unsigned long>&>::~__split_buffer()
+000000010000247a	jmp	0x10000247f
+000000010000247f	jmp	0x100002484
+0000000100002484	movq	-0x138(%rbp), %rdi
+000000010000248b	callq	0x100003c4c             ## symbol stub for: __Unwind_Resume
+0000000100002490	movl	%edx, %ecx
+0000000100002492	movq	%rax, %rdi
+0000000100002495	movl	%ecx, -0x15c(%rbp)
+000000010000249b	callq	___clang_call_terminate
+__ZNSt3__16vectorImNS_9allocatorImEEE24__RAII_IncreaseAnnotatorC2ERKS3_m:
+00000001000024a0	pushq	%rbp
+00000001000024a1	movq	%rsp, %rbp
+00000001000024a4	movq	%rdi, -0x8(%rbp)
+00000001000024a8	movq	%rsi, -0x10(%rbp)
+00000001000024ac	movq	%rdx, -0x18(%rbp)
+00000001000024b0	popq	%rbp
+00000001000024b1	retq
+00000001000024b2	nopw	%cs:(%rax,%rax)
+__ZNSt3__114__split_bufferImRNS_9allocatorImEEEC1EmmS3_:
+00000001000024c0	pushq	%rbp
+00000001000024c1	movq	%rsp, %rbp
+00000001000024c4	subq	$0x20, %rsp
+00000001000024c8	movq	%rdi, -0x8(%rbp)
+00000001000024cc	movq	%rsi, -0x10(%rbp)
+00000001000024d0	movq	%rdx, -0x18(%rbp)
+00000001000024d4	movq	%rcx, -0x20(%rbp)
+00000001000024d8	movq	-0x8(%rbp), %rdi
+00000001000024dc	movq	-0x10(%rbp), %rsi
+00000001000024e0	movq	-0x18(%rbp), %rdx
+00000001000024e4	movq	-0x20(%rbp), %rcx
+00000001000024e8	callq	__ZNSt3__114__split_bufferImRNS_9allocatorImEEEC2EmmS3_ ## std::__1::__split_buffer<unsigned long, std::__1::allocator<unsigned long>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<unsigned long>&)
+00000001000024ed	addq	$0x20, %rsp
+00000001000024f1	popq	%rbp
+00000001000024f2	retq
+00000001000024f3	nopw	%cs:(%rax,%rax)
+__ZNSt3__16vectorImNS_9allocatorImEEE26__swap_out_circular_bufferERNS_14__split_bufferImRS2_EE:
+0000000100002500	pushq	%rbp
+0000000100002501	movq	%rsp, %rbp
+0000000100002504	subq	$0x130, %rsp            ## imm = 0x130
+000000010000250b	movq	%rdi, -0x118(%rbp)
+0000000100002512	movq	%rsi, -0x120(%rbp)
+0000000100002519	movq	-0x118(%rbp), %rsi
+0000000100002520	movq	%rsi, %rdi
+0000000100002523	movq	%rsi, -0x128(%rbp)
+000000010000252a	callq	0x100003c64             ## symbol stub for: __ZNKSt3__16vectorImNS_9allocatorImEEE17__annotate_deleteEv
+000000010000252f	xorl	%eax, %eax
+0000000100002531	movl	%eax, %esi
+0000000100002533	movq	-0x128(%rbp), %rdi
+000000010000253a	movq	%rdi, -0x110(%rbp)
+0000000100002541	movq	-0x110(%rbp), %rdi
+0000000100002548	addq	$0x10, %rdi
+000000010000254c	movq	%rdi, -0x108(%rbp)
+0000000100002553	movq	-0x108(%rbp), %rdi
+000000010000255a	movq	%rdi, -0x100(%rbp)
+0000000100002561	movq	-0x100(%rbp), %rdi
+0000000100002568	movq	-0x128(%rbp), %rcx
+000000010000256f	movq	(%rcx), %rdx
+0000000100002572	movq	0x8(%rcx), %r8
+0000000100002576	movq	-0x120(%rbp), %r9
+000000010000257d	addq	$0x8, %r9
+0000000100002581	movq	%rdi, -0xd0(%rbp)
+0000000100002588	movq	%rdx, -0xd8(%rbp)
+000000010000258f	movq	%r8, -0xe0(%rbp)
+0000000100002596	movq	%r9, -0xe8(%rbp)
+000000010000259d	movq	-0xe0(%rbp), %rdx
+00000001000025a4	movq	-0xd8(%rbp), %rdi
+00000001000025ab	subq	%rdi, %rdx
+00000001000025ae	sarq	$0x3, %rdx
+00000001000025b2	movq	%rdx, -0xf0(%rbp)
+00000001000025b9	movq	-0xf0(%rbp), %rdx
+00000001000025c0	movq	-0xe8(%rbp), %rdi
+00000001000025c7	movq	(%rdi), %r8
+00000001000025ca	subq	%rdx, %rsi
+00000001000025cd	shlq	$0x3, %rsi
+00000001000025d1	addq	%rsi, %r8
+00000001000025d4	movq	%r8, (%rdi)
+00000001000025d7	cmpq	$0x0, -0xf0(%rbp)
+00000001000025df	jle	0x10000260c
+00000001000025e5	movq	-0xe8(%rbp), %rax
+00000001000025ec	movq	(%rax), %rax
+00000001000025ef	movq	-0xd8(%rbp), %rcx
+00000001000025f6	movq	-0xf0(%rbp), %rdx
+00000001000025fd	shlq	$0x3, %rdx
+0000000100002601	movq	%rax, %rdi
+0000000100002604	movq	%rcx, %rsi
+0000000100002607	callq	0x100003cee             ## symbol stub for: _memcpy
+000000010000260c	leaq	-0xc0(%rbp), %rax
+0000000100002613	leaq	-0x60(%rbp), %rcx
+0000000100002617	leaq	-0x30(%rbp), %rdx
+000000010000261b	movq	-0x128(%rbp), %rsi
+0000000100002622	movq	-0x120(%rbp), %rdi
+0000000100002629	addq	$0x8, %rdi
+000000010000262d	movq	%rsi, -0x20(%rbp)
+0000000100002631	movq	%rdi, -0x28(%rbp)
+0000000100002635	movq	-0x20(%rbp), %rsi
+0000000100002639	movq	%rsi, -0x18(%rbp)
+000000010000263d	movq	-0x18(%rbp), %rsi
+0000000100002641	movq	(%rsi), %rsi
+0000000100002644	movq	%rsi, -0x30(%rbp)
+0000000100002648	movq	-0x28(%rbp), %rsi
+000000010000264c	movq	%rsi, -0x8(%rbp)
+0000000100002650	movq	-0x8(%rbp), %rsi
+0000000100002654	movq	(%rsi), %rsi
+0000000100002657	movq	-0x20(%rbp), %rdi
+000000010000265b	movq	%rsi, (%rdi)
+000000010000265e	movq	%rdx, -0x10(%rbp)
+0000000100002662	movq	-0x10(%rbp), %rdx
+0000000100002666	movq	(%rdx), %rdx
+0000000100002669	movq	-0x28(%rbp), %rsi
+000000010000266d	movq	%rdx, (%rsi)
+0000000100002670	movq	-0x128(%rbp), %rdx
+0000000100002677	addq	$0x8, %rdx
+000000010000267b	movq	-0x120(%rbp), %rsi
+0000000100002682	addq	$0x10, %rsi
+0000000100002686	movq	%rdx, -0x50(%rbp)
+000000010000268a	movq	%rsi, -0x58(%rbp)
+000000010000268e	movq	-0x50(%rbp), %rdx
+0000000100002692	movq	%rdx, -0x48(%rbp)
+0000000100002696	movq	-0x48(%rbp), %rdx
+000000010000269a	movq	(%rdx), %rdx
+000000010000269d	movq	%rdx, -0x60(%rbp)
+00000001000026a1	movq	-0x58(%rbp), %rdx
+00000001000026a5	movq	%rdx, -0x38(%rbp)
+00000001000026a9	movq	-0x38(%rbp), %rdx
+00000001000026ad	movq	(%rdx), %rdx
+00000001000026b0	movq	-0x50(%rbp), %rsi
+00000001000026b4	movq	%rdx, (%rsi)
+00000001000026b7	movq	%rcx, -0x40(%rbp)
+00000001000026bb	movq	-0x40(%rbp), %rcx
+00000001000026bf	movq	(%rcx), %rcx
+00000001000026c2	movq	-0x58(%rbp), %rdx
+00000001000026c6	movq	%rcx, (%rdx)
+00000001000026c9	movq	-0x128(%rbp), %rcx
+00000001000026d0	movq	%rcx, -0x78(%rbp)
+00000001000026d4	movq	-0x78(%rbp), %rcx
+00000001000026d8	addq	$0x10, %rcx
+00000001000026dc	movq	%rcx, -0x70(%rbp)
+00000001000026e0	movq	-0x70(%rbp), %rcx
+00000001000026e4	movq	%rcx, -0x68(%rbp)
+00000001000026e8	movq	-0x68(%rbp), %rcx
+00000001000026ec	movq	-0x120(%rbp), %rdx
+00000001000026f3	movq	%rdx, -0x90(%rbp)
+00000001000026fa	movq	-0x90(%rbp), %rdx
+0000000100002701	addq	$0x18, %rdx
+0000000100002705	movq	%rdx, -0x88(%rbp)
+000000010000270c	movq	-0x88(%rbp), %rdx
+0000000100002713	movq	%rdx, -0x80(%rbp)
+0000000100002717	movq	-0x80(%rbp), %rdx
+000000010000271b	movq	%rcx, -0xb0(%rbp)
+0000000100002722	movq	%rdx, -0xb8(%rbp)
+0000000100002729	movq	-0xb0(%rbp), %rcx
+0000000100002730	movq	%rcx, -0xa8(%rbp)
+0000000100002737	movq	-0xa8(%rbp), %rcx
+000000010000273e	movq	(%rcx), %rcx
+0000000100002741	movq	%rcx, -0xc0(%rbp)
+0000000100002748	movq	-0xb8(%rbp), %rcx
+000000010000274f	movq	%rcx, -0x98(%rbp)
+0000000100002756	movq	-0x98(%rbp), %rcx
+000000010000275d	movq	(%rcx), %rcx
+0000000100002760	movq	-0xb0(%rbp), %rdx
+0000000100002767	movq	%rcx, (%rdx)
+000000010000276a	movq	%rax, -0xa0(%rbp)
+0000000100002771	movq	-0xa0(%rbp), %rax
+0000000100002778	movq	(%rax), %rax
+000000010000277b	movq	-0xb8(%rbp), %rcx
+0000000100002782	movq	%rax, (%rcx)
+0000000100002785	movq	-0x120(%rbp), %rax
+000000010000278c	movq	0x8(%rax), %rax
+0000000100002790	movq	-0x120(%rbp), %rcx
+0000000100002797	movq	%rax, (%rcx)
+000000010000279a	movq	-0x128(%rbp), %rax
+00000001000027a1	movq	%rax, -0xc8(%rbp)
+00000001000027a8	movq	-0xc8(%rbp), %rcx
+00000001000027af	movq	0x8(%rcx), %rdx
+00000001000027b3	movq	(%rcx), %rcx
+00000001000027b6	subq	%rcx, %rdx
+00000001000027b9	sarq	$0x3, %rdx
+00000001000027bd	movq	%rax, %rdi
+00000001000027c0	movq	%rdx, %rsi
+00000001000027c3	callq	0x100003c5e             ## symbol stub for: __ZNKSt3__16vectorImNS_9allocatorImEEE14__annotate_newEm
+00000001000027c8	movq	-0x128(%rbp), %rax
+00000001000027cf	movq	%rax, -0xf8(%rbp)
+00000001000027d6	addq	$0x130, %rsp            ## imm = 0x130
+00000001000027dd	popq	%rbp
+00000001000027de	retq
+00000001000027df	nop
+__ZNSt3__114__split_bufferImRNS_9allocatorImEEED1Ev:
+00000001000027e0	pushq	%rbp
+00000001000027e1	movq	%rsp, %rbp
+00000001000027e4	subq	$0x10, %rsp
+00000001000027e8	movq	%rdi, -0x8(%rbp)
+00000001000027ec	movq	-0x8(%rbp), %rdi
+00000001000027f0	callq	__ZNSt3__114__split_bufferImRNS_9allocatorImEEED2Ev ## std::__1::__split_buffer<unsigned long, std::__1::allocator<unsigned long>&>::~__split_buffer()
+00000001000027f5	addq	$0x10, %rsp
+00000001000027f9	popq	%rbp
+00000001000027fa	retq
+00000001000027fb	nopl	(%rax,%rax)
+__ZNKSt3__16vectorImNS_9allocatorImEEE8max_sizeEv:
+0000000100002800	pushq	%rbp
+0000000100002801	movq	%rsp, %rbp
+0000000100002804	subq	$0x58, %rsp
+0000000100002808	leaq	-0x60(%rbp), %rax
+000000010000280c	leaq	-0xb8(%rbp), %rcx
+0000000100002813	leaq	-0xb0(%rbp), %rdx
+000000010000281a	movq	$-0x1, %rsi
+0000000100002821	movabsq	$0x1fffffffffffffff, %r8 ## imm = 0x1FFFFFFFFFFFFFFF
+000000010000282b	movq	%rdi, -0xa8(%rbp)
+0000000100002832	movq	-0xa8(%rbp), %rdi
+0000000100002839	movq	%rdi, -0xa0(%rbp)
+0000000100002840	movq	-0xa0(%rbp), %rdi
+0000000100002847	addq	$0x10, %rdi
+000000010000284b	movq	%rdi, -0x98(%rbp)
+0000000100002852	movq	-0x98(%rbp), %rdi
+0000000100002859	movq	%rdi, -0x90(%rbp)
+0000000100002860	movq	-0x90(%rbp), %rdi
+0000000100002867	movq	%rdi, -0x20(%rbp)
+000000010000286b	movq	-0x20(%rbp), %rdi
+000000010000286f	movq	%rdi, -0x18(%rbp)
+0000000100002873	movq	-0x18(%rbp), %rdi
+0000000100002877	movq	%rdi, -0x8(%rbp)
+000000010000287b	movq	%r8, -0xb0(%rbp)
+0000000100002882	shrq	$0x1, %rsi
+0000000100002886	movq	%rsi, -0xb8(%rbp)
+000000010000288d	movq	%rdx, -0x78(%rbp)
+0000000100002891	movq	%rcx, -0x80(%rbp)
+0000000100002895	movq	-0x78(%rbp), %rcx
+0000000100002899	movq	-0x80(%rbp), %rdx
+000000010000289d	movq	%rcx, -0x68(%rbp)
+00000001000028a1	movq	%rdx, -0x70(%rbp)
+00000001000028a5	movq	-0x70(%rbp), %rcx
+00000001000028a9	movq	-0x68(%rbp), %rdx
+00000001000028ad	movq	%rax, -0x48(%rbp)
+00000001000028b1	movq	%rcx, -0x50(%rbp)
+00000001000028b5	movq	%rdx, -0x58(%rbp)
+00000001000028b9	movq	-0x50(%rbp), %rax
+00000001000028bd	movq	(%rax), %rax
+00000001000028c0	movq	-0x58(%rbp), %rcx
+00000001000028c4	cmpq	(%rcx), %rax
+00000001000028c7	jae	0x1000028dd
+00000001000028cd	movq	-0x70(%rbp), %rax
+00000001000028d1	movq	%rax, -0xd0(%rbp)
+00000001000028d8	jmp	0x1000028e8
+00000001000028dd	movq	-0x68(%rbp), %rax
+00000001000028e1	movq	%rax, -0xd0(%rbp)
+00000001000028e8	movq	-0xd0(%rbp), %rax
+00000001000028ef	movq	%rax, -0xd8(%rbp)
+00000001000028f6	movq	-0xd8(%rbp), %rax
+00000001000028fd	movq	(%rax), %rax
+0000000100002900	addq	$0x58, %rsp
+0000000100002904	popq	%rbp
+0000000100002905	retq
+0000000100002906	nopw	%cs:(%rax,%rax)
+__ZNSt3__114__split_bufferImRNS_9allocatorImEEEC2EmmS3_:
+0000000100002910	pushq	%rbp
+0000000100002911	movq	%rsp, %rbp
+0000000100002914	subq	$0x170, %rsp            ## imm = 0x170
+000000010000291b	leaq	-0x28(%rbp), %rax
+000000010000291f	leaq	-0x48(%rbp), %r8
+0000000100002923	leaq	-0x150(%rbp), %r9
+000000010000292a	leaq	-0x128(%rbp), %r10
+0000000100002931	movq	%rdi, -0x130(%rbp)
+0000000100002938	movq	%rsi, -0x138(%rbp)
+000000010000293f	movq	%rdx, -0x140(%rbp)
+0000000100002946	movq	%rcx, -0x148(%rbp)
+000000010000294d	movq	-0x130(%rbp), %rcx
+0000000100002954	movq	%rcx, %rdx
+0000000100002957	addq	$0x18, %rdx
+000000010000295b	movq	%r10, -0x118(%rbp)
+0000000100002962	movq	$-0x1, -0x120(%rbp)
+000000010000296d	movq	-0x118(%rbp), %rsi
+0000000100002974	movq	-0x120(%rbp), %rdi
+000000010000297b	movq	%rsi, -0x108(%rbp)
+0000000100002982	movq	%rdi, -0x110(%rbp)
+0000000100002989	movq	-0x108(%rbp), %rsi
+0000000100002990	movq	$0x0, (%rsi)
+0000000100002997	movq	-0x128(%rbp), %rsi
+000000010000299e	movq	%rsi, -0x150(%rbp)
+00000001000029a5	movq	%r9, -0x88(%rbp)
+00000001000029ac	movq	-0x148(%rbp), %rsi
+00000001000029b3	movq	%rdx, -0x58(%rbp)
+00000001000029b7	movq	$0x0, -0x60(%rbp)
+00000001000029bf	movq	%rsi, -0x68(%rbp)
+00000001000029c3	movq	-0x58(%rbp), %rdx
+00000001000029c7	movq	-0x60(%rbp), %rsi
+00000001000029cb	movq	-0x68(%rbp), %rdi
+00000001000029cf	movq	%rdx, -0x40(%rbp)
+00000001000029d3	movq	%rsi, -0x48(%rbp)
+00000001000029d7	movq	%rdi, -0x50(%rbp)
+00000001000029db	movq	-0x40(%rbp), %rdx
+00000001000029df	movq	%r8, -0x38(%rbp)
+00000001000029e3	movq	-0x38(%rbp), %rsi
+00000001000029e7	movq	(%rsi), %rsi
+00000001000029ea	movq	-0x50(%rbp), %rdi
+00000001000029ee	movq	%rdi, -0x8(%rbp)
+00000001000029f2	movq	-0x8(%rbp), %rdi
+00000001000029f6	movq	%rdx, -0x20(%rbp)
+00000001000029fa	movq	%rsi, -0x28(%rbp)
+00000001000029fe	movq	%rdi, -0x30(%rbp)
+0000000100002a02	movq	-0x20(%rbp), %rdx
+0000000100002a06	movq	%rax, -0x18(%rbp)
+0000000100002a0a	movq	-0x18(%rbp), %rax
+0000000100002a0e	movq	(%rax), %rax
+0000000100002a11	movq	%rax, (%rdx)
+0000000100002a14	movq	-0x30(%rbp), %rax
+0000000100002a18	movq	%rax, -0x10(%rbp)
+0000000100002a1c	movq	-0x10(%rbp), %rax
+0000000100002a20	movq	%rax, 0x8(%rdx)
+0000000100002a24	cmpq	$0x0, -0x138(%rbp)
+0000000100002a2c	movq	%rcx, -0x160(%rbp)
+0000000100002a33	je	0x100002ac6
+0000000100002a39	movq	-0x160(%rbp), %rax
+0000000100002a40	movq	%rax, -0x80(%rbp)
+0000000100002a44	movq	-0x80(%rbp), %rcx
+0000000100002a48	addq	$0x18, %rcx
+0000000100002a4c	movq	%rcx, -0x78(%rbp)
+0000000100002a50	movq	-0x78(%rbp), %rcx
+0000000100002a54	movq	%rcx, -0x70(%rbp)
+0000000100002a58	movq	-0x70(%rbp), %rcx
+0000000100002a5c	movq	0x8(%rcx), %rcx
+0000000100002a60	movq	-0x138(%rbp), %rdx
+0000000100002a67	movq	%rcx, -0xb0(%rbp)
+0000000100002a6e	movq	%rdx, -0xb8(%rbp)
+0000000100002a75	movq	-0xb0(%rbp), %rcx
+0000000100002a7c	movq	-0xb8(%rbp), %rdx
+0000000100002a83	movq	%rcx, -0x98(%rbp)
+0000000100002a8a	movq	%rdx, -0xa0(%rbp)
+0000000100002a91	movq	$0x0, -0xa8(%rbp)
+0000000100002a9c	movq	-0xa0(%rbp), %rcx
+0000000100002aa3	shlq	$0x3, %rcx
+0000000100002aa7	movq	%rcx, -0x90(%rbp)
+0000000100002aae	movq	-0x90(%rbp), %rdi
+0000000100002ab5	callq	0x100003cdc             ## symbol stub for: __Znwm
+0000000100002aba	movq	%rax, -0x168(%rbp)
+0000000100002ac1	jmp	0x100002b30
+0000000100002ac6	xorl	%eax, %eax
+0000000100002ac8	movl	%eax, %ecx
+0000000100002aca	leaq	-0x158(%rbp), %rdx
+0000000100002ad1	leaq	-0xe0(%rbp), %rsi
+0000000100002ad8	movq	%rsi, -0xd0(%rbp)
+0000000100002adf	movq	$-0x1, -0xd8(%rbp)
+0000000100002aea	movq	-0xd0(%rbp), %rsi
+0000000100002af1	movq	-0xd8(%rbp), %rdi
+0000000100002af8	movq	%rsi, -0xc0(%rbp)
+0000000100002aff	movq	%rdi, -0xc8(%rbp)
+0000000100002b06	movq	-0xc0(%rbp), %rsi
+0000000100002b0d	movq	$0x0, (%rsi)
+0000000100002b14	movq	-0xe0(%rbp), %rsi
+0000000100002b1b	movq	%rsi, -0x158(%rbp)
+0000000100002b22	movq	%rdx, -0xe8(%rbp)
+0000000100002b29	movq	%rcx, -0x168(%rbp)
+0000000100002b30	movq	-0x168(%rbp), %rax
+0000000100002b37	movq	-0x160(%rbp), %rcx
+0000000100002b3e	movq	%rax, (%rcx)
+0000000100002b41	movq	(%rcx), %rax
+0000000100002b44	movq	-0x140(%rbp), %rdx
+0000000100002b4b	shlq	$0x3, %rdx
+0000000100002b4f	addq	%rdx, %rax
+0000000100002b52	movq	%rax, 0x10(%rcx)
+0000000100002b56	movq	%rax, 0x8(%rcx)
+0000000100002b5a	movq	(%rcx), %rax
+0000000100002b5d	movq	-0x138(%rbp), %rdx
+0000000100002b64	shlq	$0x3, %rdx
+0000000100002b68	addq	%rdx, %rax
+0000000100002b6b	movq	%rcx, -0x100(%rbp)
+0000000100002b72	movq	-0x100(%rbp), %rdx
+0000000100002b79	addq	$0x18, %rdx
+0000000100002b7d	movq	%rdx, -0xf8(%rbp)
+0000000100002b84	movq	-0xf8(%rbp), %rdx
+0000000100002b8b	movq	%rdx, -0xf0(%rbp)
+0000000100002b92	movq	-0xf0(%rbp), %rdx
+0000000100002b99	movq	%rax, (%rdx)
+0000000100002b9c	addq	$0x170, %rsp            ## imm = 0x170
+0000000100002ba3	popq	%rbp
+0000000100002ba4	retq
+0000000100002ba5	nopw	%cs:(%rax,%rax)
+__ZNKSt3__16vectorImNS_9allocatorImEEE17__annotate_deleteEv:
+0000000100002bb0	pushq	%rbp
+0000000100002bb1	movq	%rsp, %rbp
+0000000100002bb4	subq	$0xb0, %rsp
+0000000100002bbb	movq	%rdi, -0xa0(%rbp)
+0000000100002bc2	movq	-0xa0(%rbp), %rdi
+0000000100002bc9	movq	%rdi, -0x98(%rbp)
+0000000100002bd0	movq	-0x98(%rbp), %rax
+0000000100002bd7	movq	(%rax), %rax
+0000000100002bda	movq	%rax, -0x90(%rbp)
+0000000100002be1	movq	-0x90(%rbp), %rax
+0000000100002be8	movq	%rdi, -0x88(%rbp)
+0000000100002bef	movq	-0x88(%rbp), %rcx
+0000000100002bf6	movq	(%rcx), %rcx
+0000000100002bf9	movq	%rcx, -0x80(%rbp)
+0000000100002bfd	movq	-0x80(%rbp), %rcx
+0000000100002c01	movq	%rdi, -0x28(%rbp)
+0000000100002c05	movq	-0x28(%rbp), %rdx
+0000000100002c09	movq	%rdx, -0x20(%rbp)
+0000000100002c0d	movq	-0x20(%rbp), %rdx
+0000000100002c11	movq	%rdx, -0x18(%rbp)
+0000000100002c15	movq	-0x18(%rbp), %rsi
+0000000100002c19	addq	$0x10, %rsi
+0000000100002c1d	movq	%rsi, -0x10(%rbp)
+0000000100002c21	movq	-0x10(%rbp), %rsi
+0000000100002c25	movq	%rsi, -0x8(%rbp)
+0000000100002c29	movq	-0x8(%rbp), %rsi
+0000000100002c2d	movq	(%rsi), %rsi
+0000000100002c30	movq	(%rdx), %rdx
+0000000100002c33	subq	%rdx, %rsi
+0000000100002c36	sarq	$0x3, %rsi
+0000000100002c3a	shlq	$0x3, %rsi
+0000000100002c3e	addq	%rsi, %rcx
+0000000100002c41	movq	%rdi, -0x38(%rbp)
+0000000100002c45	movq	-0x38(%rbp), %rdx
+0000000100002c49	movq	(%rdx), %rdx
+0000000100002c4c	movq	%rdx, -0x30(%rbp)
+0000000100002c50	movq	-0x30(%rbp), %rdx
+0000000100002c54	movq	%rdi, -0x40(%rbp)
+0000000100002c58	movq	-0x40(%rbp), %rsi
+0000000100002c5c	movq	0x8(%rsi), %r8
+0000000100002c60	movq	(%rsi), %rsi
+0000000100002c63	subq	%rsi, %r8
+0000000100002c66	sarq	$0x3, %r8
+0000000100002c6a	shlq	$0x3, %r8
+0000000100002c6e	addq	%r8, %rdx
+0000000100002c71	movq	%rdi, -0x50(%rbp)
+0000000100002c75	movq	-0x50(%rbp), %rsi
+0000000100002c79	movq	(%rsi), %rsi
+0000000100002c7c	movq	%rsi, -0x48(%rbp)
+0000000100002c80	movq	-0x48(%rbp), %rsi
+0000000100002c84	movq	%rdi, -0x78(%rbp)
+0000000100002c88	movq	-0x78(%rbp), %r8
+0000000100002c8c	movq	%r8, -0x70(%rbp)
+0000000100002c90	movq	-0x70(%rbp), %r8
+0000000100002c94	movq	%r8, -0x68(%rbp)
+0000000100002c98	movq	-0x68(%rbp), %r9
+0000000100002c9c	addq	$0x10, %r9
+0000000100002ca0	movq	%r9, -0x60(%rbp)
+0000000100002ca4	movq	-0x60(%rbp), %r9
+0000000100002ca8	movq	%r9, -0x58(%rbp)
+0000000100002cac	movq	-0x58(%rbp), %r9
+0000000100002cb0	movq	(%r9), %r9
+0000000100002cb3	movq	(%r8), %r8
+0000000100002cb6	subq	%r8, %r9
+0000000100002cb9	sarq	$0x3, %r9
+0000000100002cbd	shlq	$0x3, %r9
+0000000100002cc1	addq	%r9, %rsi
+0000000100002cc4	movq	%rsi, -0xa8(%rbp)
+0000000100002ccb	movq	%rax, %rsi
+0000000100002cce	movq	%rdx, -0xb0(%rbp)
+0000000100002cd5	movq	%rcx, %rdx
+0000000100002cd8	movq	-0xb0(%rbp), %rcx
+0000000100002cdf	movq	-0xa8(%rbp), %r8
+0000000100002ce6	callq	0x100003c70             ## symbol stub for: __ZNKSt3__16vectorImNS_9allocatorImEEE31__annotate_contiguous_containerEPKvS5_S5_S5_
+0000000100002ceb	addq	$0xb0, %rsp
+0000000100002cf2	popq	%rbp
+0000000100002cf3	retq
+0000000100002cf4	nopw	%cs:(%rax,%rax)
+__ZNKSt3__16vectorImNS_9allocatorImEEE14__annotate_newEm:
+0000000100002d00	pushq	%rbp
+0000000100002d01	movq	%rsp, %rbp
+0000000100002d04	subq	$0xb0, %rsp
+0000000100002d0b	movq	%rdi, -0x98(%rbp)
+0000000100002d12	movq	%rsi, -0xa0(%rbp)
+0000000100002d19	movq	-0x98(%rbp), %rsi
+0000000100002d20	movq	%rsi, -0x90(%rbp)
+0000000100002d27	movq	-0x90(%rbp), %rdi
+0000000100002d2e	movq	(%rdi), %rdi
+0000000100002d31	movq	%rdi, -0x88(%rbp)
+0000000100002d38	movq	-0x88(%rbp), %rdi
+0000000100002d3f	movq	%rsi, -0x80(%rbp)
+0000000100002d43	movq	-0x80(%rbp), %rax
+0000000100002d47	movq	(%rax), %rax
+0000000100002d4a	movq	%rax, -0x78(%rbp)
+0000000100002d4e	movq	-0x78(%rbp), %rax
+0000000100002d52	movq	%rsi, -0x28(%rbp)
+0000000100002d56	movq	-0x28(%rbp), %rcx
+0000000100002d5a	movq	%rcx, -0x20(%rbp)
+0000000100002d5e	movq	-0x20(%rbp), %rcx
+0000000100002d62	movq	%rcx, -0x18(%rbp)
+0000000100002d66	movq	-0x18(%rbp), %rdx
+0000000100002d6a	addq	$0x10, %rdx
+0000000100002d6e	movq	%rdx, -0x10(%rbp)
+0000000100002d72	movq	-0x10(%rbp), %rdx
+0000000100002d76	movq	%rdx, -0x8(%rbp)
+0000000100002d7a	movq	-0x8(%rbp), %rdx
+0000000100002d7e	movq	(%rdx), %rdx
+0000000100002d81	movq	(%rcx), %rcx
+0000000100002d84	subq	%rcx, %rdx
+0000000100002d87	sarq	$0x3, %rdx
+0000000100002d8b	shlq	$0x3, %rdx
+0000000100002d8f	addq	%rdx, %rax
+0000000100002d92	movq	%rsi, -0x38(%rbp)
+0000000100002d96	movq	-0x38(%rbp), %rcx
+0000000100002d9a	movq	(%rcx), %rcx
+0000000100002d9d	movq	%rcx, -0x30(%rbp)
+0000000100002da1	movq	-0x30(%rbp), %rcx
+0000000100002da5	movq	%rsi, -0x60(%rbp)
+0000000100002da9	movq	-0x60(%rbp), %rdx
+0000000100002dad	movq	%rdx, -0x58(%rbp)
+0000000100002db1	movq	-0x58(%rbp), %rdx
+0000000100002db5	movq	%rdx, -0x50(%rbp)
+0000000100002db9	movq	-0x50(%rbp), %r8
+0000000100002dbd	addq	$0x10, %r8
+0000000100002dc1	movq	%r8, -0x48(%rbp)
+0000000100002dc5	movq	-0x48(%rbp), %r8
+0000000100002dc9	movq	%r8, -0x40(%rbp)
+0000000100002dcd	movq	-0x40(%rbp), %r8
+0000000100002dd1	movq	(%r8), %r8
+0000000100002dd4	movq	(%rdx), %rdx
+0000000100002dd7	subq	%rdx, %r8
+0000000100002dda	sarq	$0x3, %r8
+0000000100002dde	shlq	$0x3, %r8
+0000000100002de2	addq	%r8, %rcx
+0000000100002de5	movq	%rsi, -0x70(%rbp)
+0000000100002de9	movq	-0x70(%rbp), %rdx
+0000000100002ded	movq	(%rdx), %rdx
+0000000100002df0	movq	%rdx, -0x68(%rbp)
+0000000100002df4	movq	-0x68(%rbp), %rdx
+0000000100002df8	movq	-0xa0(%rbp), %r8
+0000000100002dff	shlq	$0x3, %r8
+0000000100002e03	addq	%r8, %rdx
+0000000100002e06	movq	%rdi, -0xa8(%rbp)
+0000000100002e0d	movq	%rsi, %rdi
+0000000100002e10	movq	-0xa8(%rbp), %rsi
+0000000100002e17	movq	%rdx, -0xb0(%rbp)
+0000000100002e1e	movq	%rax, %rdx
+0000000100002e21	movq	-0xb0(%rbp), %r8
+0000000100002e28	callq	0x100003c70             ## symbol stub for: __ZNKSt3__16vectorImNS_9allocatorImEEE31__annotate_contiguous_containerEPKvS5_S5_S5_
+0000000100002e2d	addq	$0xb0, %rsp
+0000000100002e34	popq	%rbp
+0000000100002e35	retq
+0000000100002e36	nopw	%cs:(%rax,%rax)
+__ZNKSt3__16vectorImNS_9allocatorImEEE31__annotate_contiguous_containerEPKvS5_S5_S5_:
+0000000100002e40	pushq	%rbp
+0000000100002e41	movq	%rsp, %rbp
+0000000100002e44	movq	%rdi, -0x8(%rbp)
+0000000100002e48	movq	%rsi, -0x10(%rbp)
+0000000100002e4c	movq	%rdx, -0x18(%rbp)
+0000000100002e50	movq	%rcx, -0x20(%rbp)
+0000000100002e54	movq	%r8, -0x28(%rbp)
+0000000100002e58	popq	%rbp
+0000000100002e59	retq
+0000000100002e5a	nopw	(%rax,%rax)
+__ZNSt3__114__split_bufferImRNS_9allocatorImEEED2Ev:
+0000000100002e60	pushq	%rbp
+0000000100002e61	movq	%rsp, %rbp
+0000000100002e64	subq	$0x130, %rsp            ## imm = 0x130
+0000000100002e6b	movq	%rdi, -0x120(%rbp)
+0000000100002e72	movq	-0x120(%rbp), %rdi
+0000000100002e79	movq	%rdi, -0x118(%rbp)
+0000000100002e80	movq	-0x118(%rbp), %rax
+0000000100002e87	movq	0x8(%rax), %rcx
+0000000100002e8b	movq	%rax, -0x100(%rbp)
+0000000100002e92	movq	%rcx, -0x108(%rbp)
+0000000100002e99	movq	-0x100(%rbp), %rax
+0000000100002ea0	movq	-0x108(%rbp), %rcx
+0000000100002ea7	movq	%rax, -0xe0(%rbp)
+0000000100002eae	movq	%rcx, -0xe8(%rbp)
+0000000100002eb5	movq	-0xe0(%rbp), %rax
+0000000100002ebc	movq	%rdi, -0x128(%rbp)
+0000000100002ec3	movq	%rax, -0x130(%rbp)
+0000000100002eca	movq	-0xe8(%rbp), %rax
+0000000100002ed1	movq	-0x130(%rbp), %rcx
+0000000100002ed8	cmpq	0x10(%rcx), %rax
+0000000100002edc	je	0x100002f64
+0000000100002ee2	movq	-0x130(%rbp), %rax
+0000000100002ee9	movq	%rax, -0xd0(%rbp)
+0000000100002ef0	movq	-0xd0(%rbp), %rcx
+0000000100002ef7	addq	$0x18, %rcx
+0000000100002efb	movq	%rcx, -0xc8(%rbp)
+0000000100002f02	movq	-0xc8(%rbp), %rcx
+0000000100002f09	movq	%rcx, -0xc0(%rbp)
+0000000100002f10	movq	-0xc0(%rbp), %rcx
+0000000100002f17	movq	0x8(%rcx), %rcx
+0000000100002f1b	movq	0x10(%rax), %rdx
+0000000100002f1f	addq	$-0x8, %rdx
+0000000100002f23	movq	%rdx, 0x10(%rax)
+0000000100002f27	movq	%rdx, -0x88(%rbp)
+0000000100002f2e	movq	-0x88(%rbp), %rdx
+0000000100002f35	movq	%rcx, -0xa0(%rbp)
+0000000100002f3c	movq	%rdx, -0xa8(%rbp)
+0000000100002f43	movq	-0xa0(%rbp), %rcx
+0000000100002f4a	movq	-0xa8(%rbp), %rdx
+0000000100002f51	movq	%rcx, -0x90(%rbp)
+0000000100002f58	movq	%rdx, -0x98(%rbp)
+0000000100002f5f	jmp	0x100002eca
+0000000100002f64	movq	-0x128(%rbp), %rax
+0000000100002f6b	cmpq	$0x0, (%rax)
+0000000100002f6f	je	0x100003005
+0000000100002f75	movq	-0x128(%rbp), %rax
+0000000100002f7c	movq	%rax, -0x38(%rbp)
+0000000100002f80	movq	-0x38(%rbp), %rcx
+0000000100002f84	addq	$0x18, %rcx
+0000000100002f88	movq	%rcx, -0x30(%rbp)
+0000000100002f8c	movq	-0x30(%rbp), %rcx
+0000000100002f90	movq	%rcx, -0x28(%rbp)
+0000000100002f94	movq	-0x28(%rbp), %rcx
+0000000100002f98	movq	0x8(%rcx), %rcx
+0000000100002f9c	movq	(%rax), %rdx
+0000000100002f9f	movq	%rax, -0x20(%rbp)
+0000000100002fa3	movq	-0x20(%rbp), %rsi
+0000000100002fa7	movq	%rsi, -0x18(%rbp)
+0000000100002fab	movq	-0x18(%rbp), %rdi
+0000000100002faf	addq	$0x18, %rdi
+0000000100002fb3	movq	%rdi, -0x10(%rbp)
+0000000100002fb7	movq	-0x10(%rbp), %rdi
+0000000100002fbb	movq	%rdi, -0x8(%rbp)
+0000000100002fbf	movq	-0x8(%rbp), %rdi
+0000000100002fc3	movq	(%rdi), %rdi
+0000000100002fc6	movq	(%rsi), %rsi
+0000000100002fc9	subq	%rsi, %rdi
+0000000100002fcc	sarq	$0x3, %rdi
+0000000100002fd0	movq	%rcx, -0x70(%rbp)
+0000000100002fd4	movq	%rdx, -0x78(%rbp)
+0000000100002fd8	movq	%rdi, -0x80(%rbp)
+0000000100002fdc	movq	-0x70(%rbp), %rcx
+0000000100002fe0	movq	-0x78(%rbp), %rdx
+0000000100002fe4	movq	-0x80(%rbp), %rsi
+0000000100002fe8	movq	%rcx, -0x48(%rbp)
+0000000100002fec	movq	%rdx, -0x50(%rbp)
+0000000100002ff0	movq	%rsi, -0x58(%rbp)
+0000000100002ff4	movq	-0x50(%rbp), %rcx
+0000000100002ff8	movq	%rcx, -0x40(%rbp)
+0000000100002ffc	movq	-0x40(%rbp), %rdi
+0000000100003000	callq	0x100003cd0             ## symbol stub for: __ZdlPv
+0000000100003005	addq	$0x130, %rsp            ## imm = 0x130
+000000010000300c	popq	%rbp
+000000010000300d	retq
+000000010000300e	nop
+__ZNSt3__16vectorImNS_9allocatorImEEE6assignIPmEENS_9enable_ifIXaasr21__is_forward_iteratorIT_EE5valuesr16is_constructibleImNS_15iterator_traitsIS7_E9referenceEEE5valueEvE4typeES7_S7_:
+0000000100003010	pushq	%rbp
+0000000100003011	movq	%rsp, %rbp
+0000000100003014	subq	$0x290, %rsp            ## imm = 0x290
+000000010000301b	movq	%rdi, -0x228(%rbp)
+0000000100003022	movq	%rsi, -0x230(%rbp)
+0000000100003029	movq	%rdx, -0x238(%rbp)
+0000000100003030	movq	-0x228(%rbp), %rdx
+0000000100003037	movq	-0x230(%rbp), %rsi
+000000010000303e	movq	-0x238(%rbp), %rdi
+0000000100003045	movq	%rsi, -0x210(%rbp)
+000000010000304c	movq	%rdi, -0x218(%rbp)
+0000000100003053	movq	-0x210(%rbp), %rsi
+000000010000305a	movq	-0x218(%rbp), %rdi
+0000000100003061	movq	%rsi, -0x200(%rbp)
+0000000100003068	movq	%rdi, -0x208(%rbp)
+000000010000306f	movq	-0x208(%rbp), %rsi
+0000000100003076	movq	-0x200(%rbp), %rdi
+000000010000307d	subq	%rdi, %rsi
+0000000100003080	sarq	$0x3, %rsi
+0000000100003084	movq	%rsi, -0x240(%rbp)
+000000010000308b	movq	-0x240(%rbp), %rsi
+0000000100003092	movq	%rdx, -0x1f8(%rbp)
+0000000100003099	movq	-0x1f8(%rbp), %rdi
+00000001000030a0	movq	%rdi, -0x1f0(%rbp)
+00000001000030a7	movq	-0x1f0(%rbp), %rdi
+00000001000030ae	movq	%rdi, -0x1e8(%rbp)
+00000001000030b5	movq	-0x1e8(%rbp), %rax
+00000001000030bc	addq	$0x10, %rax
+00000001000030c0	movq	%rax, -0x1e0(%rbp)
+00000001000030c7	movq	-0x1e0(%rbp), %rax
+00000001000030ce	movq	%rax, -0x1d8(%rbp)
+00000001000030d5	movq	-0x1d8(%rbp), %rax
+00000001000030dc	movq	(%rax), %rax
+00000001000030df	movq	(%rdi), %rdi
+00000001000030e2	subq	%rdi, %rax
+00000001000030e5	sarq	$0x3, %rax
+00000001000030e9	cmpq	%rax, %rsi
+00000001000030ec	movq	%rdx, -0x260(%rbp)
+00000001000030f3	ja	0x100003410
+00000001000030f9	movq	-0x238(%rbp), %rax
+0000000100003100	movq	%rax, -0x248(%rbp)
+0000000100003107	movb	$0x0, -0x249(%rbp)
+000000010000310e	movq	-0x240(%rbp), %rax
+0000000100003115	movq	-0x260(%rbp), %rcx
+000000010000311c	movq	%rcx, -0x1d0(%rbp)
+0000000100003123	movq	-0x1d0(%rbp), %rdx
+000000010000312a	movq	0x8(%rdx), %rsi
+000000010000312e	movq	(%rdx), %rdx
+0000000100003131	subq	%rdx, %rsi
+0000000100003134	sarq	$0x3, %rsi
+0000000100003138	cmpq	%rsi, %rax
+000000010000313b	jbe	0x1000031c2
+0000000100003141	leaq	-0x248(%rbp), %rax
+0000000100003148	movb	$0x1, -0x249(%rbp)
+000000010000314f	movq	-0x230(%rbp), %rcx
+0000000100003156	movq	%rcx, -0x248(%rbp)
+000000010000315d	movq	-0x260(%rbp), %rcx
+0000000100003164	movq	%rcx, -0x128(%rbp)
+000000010000316b	movq	-0x128(%rbp), %rdx
+0000000100003172	movq	0x8(%rdx), %rsi
+0000000100003176	movq	(%rdx), %rdx
+0000000100003179	subq	%rdx, %rsi
+000000010000317c	sarq	$0x3, %rsi
+0000000100003180	movq	%rax, -0x110(%rbp)
+0000000100003187	movq	%rsi, -0x118(%rbp)
+000000010000318e	movq	-0x110(%rbp), %rax
+0000000100003195	movq	-0x118(%rbp), %rdx
+000000010000319c	movq	%rax, -0x100(%rbp)
+00000001000031a3	movq	%rdx, -0x108(%rbp)
+00000001000031aa	movq	-0x108(%rbp), %rax
+00000001000031b1	movq	-0x100(%rbp), %rdx
+00000001000031b8	shlq	$0x3, %rax
+00000001000031bc	addq	(%rdx), %rax
+00000001000031bf	movq	%rax, (%rdx)
+00000001000031c2	movq	-0x230(%rbp), %rax
+00000001000031c9	movq	-0x248(%rbp), %rcx
+00000001000031d0	movq	-0x260(%rbp), %rdx
+00000001000031d7	movq	(%rdx), %rsi
+00000001000031da	movq	%rax, -0xe8(%rbp)
+00000001000031e1	movq	%rcx, -0xf0(%rbp)
+00000001000031e8	movq	%rsi, -0xf8(%rbp)
+00000001000031ef	movq	-0xe8(%rbp), %rax
+00000001000031f6	movq	%rax, -0xe0(%rbp)
+00000001000031fd	movq	-0xe0(%rbp), %rax
+0000000100003204	movq	-0xf0(%rbp), %rcx
+000000010000320b	movq	%rcx, -0xb0(%rbp)
+0000000100003212	movq	-0xb0(%rbp), %rcx
+0000000100003219	movq	-0xf8(%rbp), %rsi
+0000000100003220	movq	%rsi, -0xb8(%rbp)
+0000000100003227	movq	-0xb8(%rbp), %rsi
+000000010000322e	movq	%rax, -0xc0(%rbp)
+0000000100003235	movq	%rcx, -0xc8(%rbp)
+000000010000323c	movq	%rsi, -0xd0(%rbp)
+0000000100003243	movq	-0xc8(%rbp), %rax
+000000010000324a	movq	-0xc0(%rbp), %rcx
+0000000100003251	subq	%rcx, %rax
+0000000100003254	sarq	$0x3, %rax
+0000000100003258	movq	%rax, -0xd8(%rbp)
+000000010000325f	cmpq	$0x0, -0xd8(%rbp)
+0000000100003267	jbe	0x100003298
+000000010000326d	movq	-0xd0(%rbp), %rax
+0000000100003274	movq	-0xc0(%rbp), %rcx
+000000010000327b	movq	-0xd8(%rbp), %rdx
+0000000100003282	shlq	$0x3, %rdx
+0000000100003286	movq	%rax, %rdi
+0000000100003289	movq	%rcx, %rsi
+000000010000328c	callq	0x100003cf4             ## symbol stub for: _memmove
+0000000100003291	movq	%rax, -0x268(%rbp)
+0000000100003298	movq	-0xd0(%rbp), %rax
+000000010000329f	movq	-0xd8(%rbp), %rcx
+00000001000032a6	shlq	$0x3, %rcx
+00000001000032aa	addq	%rcx, %rax
+00000001000032ad	movq	%rax, -0x258(%rbp)
+00000001000032b4	testb	$0x1, -0x249(%rbp)
+00000001000032bb	je	0x100003306
+00000001000032c1	movq	-0x248(%rbp), %rsi
+00000001000032c8	movq	-0x238(%rbp), %rdx
+00000001000032cf	movq	-0x240(%rbp), %rax
+00000001000032d6	movq	-0x260(%rbp), %rcx
+00000001000032dd	movq	%rcx, -0x8(%rbp)
+00000001000032e1	movq	-0x8(%rbp), %rdi
+00000001000032e5	movq	0x8(%rdi), %r8
+00000001000032e9	movq	(%rdi), %rdi
+00000001000032ec	subq	%rdi, %r8
+00000001000032ef	sarq	$0x3, %r8
+00000001000032f3	subq	%r8, %rax
+00000001000032f6	movq	%rcx, %rdi
+00000001000032f9	movq	%rax, %rcx
+00000001000032fc	callq	0x100003ca0             ## symbol stub for: __ZNSt3__16vectorImNS_9allocatorImEEE18__construct_at_endIPmEENS_9enable_ifIXsr21__is_forward_iteratorIT_EE5valueEvE4typeES7_S7_m
+0000000100003301	jmp	0x10000340b
+0000000100003306	movq	-0x258(%rbp), %rax
+000000010000330d	movq	-0x260(%rbp), %rcx
+0000000100003314	movq	%rcx, -0x88(%rbp)
+000000010000331b	movq	%rax, -0x90(%rbp)
+0000000100003322	movq	-0x88(%rbp), %rax
+0000000100003329	movq	%rax, -0x80(%rbp)
+000000010000332d	movq	-0x80(%rbp), %rdx
+0000000100003331	movq	0x8(%rdx), %rsi
+0000000100003335	movq	(%rdx), %rdx
+0000000100003338	subq	%rdx, %rsi
+000000010000333b	sarq	$0x3, %rsi
+000000010000333f	movq	%rsi, -0x98(%rbp)
+0000000100003346	movq	%rax, %rdx
+0000000100003349	movq	-0x90(%rbp), %rsi
+0000000100003350	movq	%rdx, -0x60(%rbp)
+0000000100003354	movq	%rsi, -0x68(%rbp)
+0000000100003358	movq	-0x60(%rbp), %rdx
+000000010000335c	movq	%rax, -0x270(%rbp)
+0000000100003363	movq	%rdx, -0x278(%rbp)
+000000010000336a	movq	-0x68(%rbp), %rax
+000000010000336e	movq	-0x278(%rbp), %rcx
+0000000100003375	cmpq	0x8(%rcx), %rax
+0000000100003379	je	0x1000033d3
+000000010000337f	movq	-0x278(%rbp), %rax
+0000000100003386	movq	%rax, -0x58(%rbp)
+000000010000338a	movq	-0x58(%rbp), %rcx
+000000010000338e	addq	$0x10, %rcx
+0000000100003392	movq	%rcx, -0x50(%rbp)
+0000000100003396	movq	-0x50(%rbp), %rcx
+000000010000339a	movq	%rcx, -0x48(%rbp)
+000000010000339e	movq	-0x48(%rbp), %rcx
+00000001000033a2	movq	0x8(%rax), %rdx
+00000001000033a6	addq	$-0x8, %rdx
+00000001000033aa	movq	%rdx, 0x8(%rax)
+00000001000033ae	movq	%rdx, -0x10(%rbp)
+00000001000033b2	movq	-0x10(%rbp), %rdx
+00000001000033b6	movq	%rcx, -0x28(%rbp)
+00000001000033ba	movq	%rdx, -0x30(%rbp)
+00000001000033be	movq	-0x28(%rbp), %rcx
+00000001000033c2	movq	-0x30(%rbp), %rdx
+00000001000033c6	movq	%rcx, -0x18(%rbp)
+00000001000033ca	movq	%rdx, -0x20(%rbp)
+00000001000033ce	jmp	0x10000336a
+00000001000033d3	movq	-0x98(%rbp), %rsi
+00000001000033da	movq	-0x270(%rbp), %rdi
+00000001000033e1	callq	0x100003c6a             ## symbol stub for: __ZNKSt3__16vectorImNS_9allocatorImEEE17__annotate_shrinkEm
+00000001000033e6	jmp	0x100003406
+00000001000033eb	movl	%edx, %ecx
+00000001000033ed	movq	%rax, -0xa0(%rbp)
+00000001000033f4	movl	%ecx, -0xa4(%rbp)
+00000001000033fa	movq	-0xa0(%rbp), %rdi
+0000000100003401	callq	0x100003ce8             ## symbol stub for: ___cxa_call_unexpected
+0000000100003406	jmp	0x10000340b
+000000010000340b	jmp	0x1000035fc
+0000000100003410	movq	-0x260(%rbp), %rdi
+0000000100003417	callq	0x100003c9a             ## symbol stub for: __ZNSt3__16vectorImNS_9allocatorImEEE10deallocateEv
+000000010000341c	movq	-0x240(%rbp), %rdi
+0000000100003423	movq	-0x260(%rbp), %rax
+000000010000342a	movq	%rax, -0x1a8(%rbp)
+0000000100003431	movq	%rdi, -0x1b0(%rbp)
+0000000100003438	movq	-0x1a8(%rbp), %rdi
+000000010000343f	movq	%rdi, -0x280(%rbp)
+0000000100003446	callq	0x100003c76             ## symbol stub for: __ZNKSt3__16vectorImNS_9allocatorImEEE8max_sizeEv
+000000010000344b	movq	%rax, -0x1b8(%rbp)
+0000000100003452	movq	-0x1b0(%rbp), %rax
+0000000100003459	cmpq	-0x1b8(%rbp), %rax
+0000000100003460	jbe	0x100003475
+0000000100003466	movq	-0x280(%rbp), %rax
+000000010000346d	movq	%rax, %rdi
+0000000100003470	callq	0x100003c52             ## symbol stub for: __ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv
+0000000100003475	movq	-0x280(%rbp), %rax
+000000010000347c	movq	%rax, -0x198(%rbp)
+0000000100003483	movq	-0x198(%rbp), %rcx
+000000010000348a	movq	%rcx, -0x190(%rbp)
+0000000100003491	movq	-0x190(%rbp), %rcx
+0000000100003498	movq	%rcx, -0x188(%rbp)
+000000010000349f	movq	-0x188(%rbp), %rdx
+00000001000034a6	addq	$0x10, %rdx
+00000001000034aa	movq	%rdx, -0x180(%rbp)
+00000001000034b1	movq	-0x180(%rbp), %rdx
+00000001000034b8	movq	%rdx, -0x178(%rbp)
+00000001000034bf	movq	-0x178(%rbp), %rdx
+00000001000034c6	movq	(%rdx), %rdx
+00000001000034c9	movq	(%rcx), %rcx
+00000001000034cc	subq	%rcx, %rdx
+00000001000034cf	sarq	$0x3, %rdx
+00000001000034d3	movq	%rdx, -0x1c0(%rbp)
+00000001000034da	movq	-0x1c0(%rbp), %rcx
+00000001000034e1	movq	-0x1b8(%rbp), %rdx
+00000001000034e8	shrq	$0x1, %rdx
+00000001000034ec	cmpq	%rdx, %rcx
+00000001000034ef	jb	0x100003508
+00000001000034f5	movq	-0x1b8(%rbp), %rax
+00000001000034fc	movq	%rax, -0x1a0(%rbp)
+0000000100003503	jmp	0x1000035c8
+0000000100003508	leaq	-0x148(%rbp), %rax
+000000010000350f	leaq	-0x1b0(%rbp), %rcx
+0000000100003516	leaq	-0x1c8(%rbp), %rdx
+000000010000351d	movq	-0x1c0(%rbp), %rsi
+0000000100003524	shlq	$0x1, %rsi
+0000000100003528	movq	%rsi, -0x1c8(%rbp)
+000000010000352f	movq	%rdx, -0x160(%rbp)
+0000000100003536	movq	%rcx, -0x168(%rbp)
+000000010000353d	movq	-0x160(%rbp), %rcx
+0000000100003544	movq	-0x168(%rbp), %rdx
+000000010000354b	movq	%rcx, -0x150(%rbp)
+0000000100003552	movq	%rdx, -0x158(%rbp)
+0000000100003559	movq	-0x150(%rbp), %rcx
+0000000100003560	movq	-0x158(%rbp), %rdx
+0000000100003567	movq	%rax, -0x130(%rbp)
+000000010000356e	movq	%rcx, -0x138(%rbp)
+0000000100003575	movq	%rdx, -0x140(%rbp)
+000000010000357c	movq	-0x138(%rbp), %rax
+0000000100003583	movq	(%rax), %rax
+0000000100003586	movq	-0x140(%rbp), %rcx
+000000010000358d	cmpq	(%rcx), %rax
+0000000100003590	jae	0x1000035a9
+0000000100003596	movq	-0x158(%rbp), %rax
+000000010000359d	movq	%rax, -0x288(%rbp)
+00000001000035a4	jmp	0x1000035b7
+00000001000035a9	movq	-0x150(%rbp), %rax
+00000001000035b0	movq	%rax, -0x288(%rbp)
+00000001000035b7	movq	-0x288(%rbp), %rax
+00000001000035be	movq	(%rax), %rax
+00000001000035c1	movq	%rax, -0x1a0(%rbp)
+00000001000035c8	movq	-0x1a0(%rbp), %rsi
+00000001000035cf	movq	-0x260(%rbp), %rdi
+00000001000035d6	callq	0x100003cbe             ## symbol stub for: __ZNSt3__16vectorImNS_9allocatorImEEE8allocateEm
+00000001000035db	movq	-0x230(%rbp), %rsi
+00000001000035e2	movq	-0x238(%rbp), %rdx
+00000001000035e9	movq	-0x240(%rbp), %rcx
+00000001000035f0	movq	-0x260(%rbp), %rdi
+00000001000035f7	callq	0x100003ca0             ## symbol stub for: __ZNSt3__16vectorImNS_9allocatorImEEE18__construct_at_endIPmEENS_9enable_ifIXsr21__is_forward_iteratorIT_EE5valueEvE4typeES7_S7_m
+00000001000035fc	addq	$0x290, %rsp            ## imm = 0x290
+0000000100003603	popq	%rbp
+0000000100003604	retq
+0000000100003605	nopw	%cs:(%rax,%rax)
+__ZNSt3__16vectorImNS_9allocatorImEEE18__construct_at_endIPmEENS_9enable_ifIXsr21__is_forward_iteratorIT_EE5valueEvE4typeES7_S7_m:
+0000000100003610	pushq	%rbp
+0000000100003611	movq	%rsp, %rbp
+0000000100003614	subq	$0x80, %rsp
+000000010000361b	leaq	-0x70(%rbp), %rax
+000000010000361f	movq	%rdi, -0x48(%rbp)
+0000000100003623	movq	%rsi, -0x50(%rbp)
+0000000100003627	movq	%rdx, -0x58(%rbp)
+000000010000362b	movq	%rcx, -0x60(%rbp)
+000000010000362f	movq	-0x48(%rbp), %rcx
+0000000100003633	movq	%rcx, %rdx
+0000000100003636	movq	%rdx, -0x40(%rbp)
+000000010000363a	movq	-0x40(%rbp), %rdx
+000000010000363e	addq	$0x10, %rdx
+0000000100003642	movq	%rdx, -0x38(%rbp)
+0000000100003646	movq	-0x38(%rbp), %rdx
+000000010000364a	movq	%rdx, -0x30(%rbp)
+000000010000364e	movq	-0x30(%rbp), %rdx
+0000000100003652	movq	%rdx, -0x68(%rbp)
+0000000100003656	movq	-0x60(%rbp), %rdx
+000000010000365a	movq	%rax, %rdi
+000000010000365d	movq	%rcx, %rsi
+0000000100003660	movq	%rcx, -0x78(%rbp)
+0000000100003664	callq	__ZNSt3__16vectorImNS_9allocatorImEEE24__RAII_IncreaseAnnotatorC1ERKS3_m ## std::__1::vector<unsigned long, std::__1::allocator<unsigned long> >::__RAII_IncreaseAnnotator::__RAII_IncreaseAnnotator(std::__1::vector<unsigned long, std::__1::allocator<unsigned long> > const&, unsigned long)
+0000000100003669	movq	-0x68(%rbp), %rax
+000000010000366d	movq	-0x50(%rbp), %rcx
+0000000100003671	movq	-0x58(%rbp), %rdx
+0000000100003675	movq	-0x78(%rbp), %rsi
+0000000100003679	addq	$0x8, %rsi
+000000010000367d	movq	%rax, -0x8(%rbp)
+0000000100003681	movq	%rcx, -0x10(%rbp)
+0000000100003685	movq	%rdx, -0x18(%rbp)
+0000000100003689	movq	%rsi, -0x20(%rbp)
+000000010000368d	movq	-0x18(%rbp), %rax
+0000000100003691	movq	-0x10(%rbp), %rcx
+0000000100003695	subq	%rcx, %rax
+0000000100003698	sarq	$0x3, %rax
+000000010000369c	movq	%rax, -0x28(%rbp)
+00000001000036a0	cmpq	$0x0, -0x28(%rbp)
+00000001000036a5	jle	0x1000036db
+00000001000036ab	movq	-0x20(%rbp), %rax
+00000001000036af	movq	(%rax), %rax
+00000001000036b2	movq	-0x10(%rbp), %rcx
+00000001000036b6	movq	-0x28(%rbp), %rdx
+00000001000036ba	shlq	$0x3, %rdx
+00000001000036be	movq	%rax, %rdi
+00000001000036c1	movq	%rcx, %rsi
+00000001000036c4	callq	0x100003cee             ## symbol stub for: _memcpy
+00000001000036c9	movq	-0x28(%rbp), %rax
+00000001000036cd	movq	-0x20(%rbp), %rcx
+00000001000036d1	shlq	$0x3, %rax
+00000001000036d5	addq	(%rcx), %rax
+00000001000036d8	movq	%rax, (%rcx)
+00000001000036db	leaq	-0x70(%rbp), %rdi
+00000001000036df	callq	0x100003cac             ## symbol stub for: __ZNSt3__16vectorImNS_9allocatorImEEE24__RAII_IncreaseAnnotator6__doneEv
+00000001000036e4	addq	$0x80, %rsp
+00000001000036eb	popq	%rbp
+00000001000036ec	retq
+00000001000036ed	nopl	(%rax)
+__ZNSt3__16vectorImNS_9allocatorImEEE10deallocateEv:
+00000001000036f0	pushq	%rbp
+00000001000036f1	movq	%rsp, %rbp
+00000001000036f4	subq	$0x200, %rsp            ## imm = 0x200
+00000001000036fb	leaq	-0x1a8(%rbp), %rax
+0000000100003702	movq	%rdi, -0x1b0(%rbp)
+0000000100003709	movq	-0x1b0(%rbp), %rdi
+0000000100003710	movq	(%rdi), %rcx
+0000000100003713	movq	%rax, -0x198(%rbp)
+000000010000371a	movq	$-0x1, -0x1a0(%rbp)
+0000000100003725	movq	-0x198(%rbp), %rax
+000000010000372c	movq	-0x1a0(%rbp), %rdx
+0000000100003733	movq	%rax, -0x188(%rbp)
+000000010000373a	movq	%rdx, -0x190(%rbp)
+0000000100003741	movq	-0x188(%rbp), %rax
+0000000100003748	movq	$0x0, (%rax)
+000000010000374f	movq	-0x1a8(%rbp), %rax
+0000000100003756	movq	%rcx, -0x1d8(%rbp)
+000000010000375d	movq	%rdi, -0x1e0(%rbp)
+0000000100003764	movq	%rax, -0x1e8(%rbp)
+000000010000376b	leaq	-0x1c8(%rbp), %rax
+0000000100003772	movq	-0x1e8(%rbp), %rcx
+0000000100003779	movq	%rcx, -0x1c8(%rbp)
+0000000100003780	movq	%rax, -0xf0(%rbp)
+0000000100003787	movq	-0x1d8(%rbp), %rax
+000000010000378e	cmpq	$0x0, %rax
+0000000100003792	je	0x100003a4d
+0000000100003798	movq	-0x1e0(%rbp), %rax
+000000010000379f	movq	%rax, -0x90(%rbp)
+00000001000037a6	movq	-0x90(%rbp), %rcx
+00000001000037ad	movq	%rcx, -0x88(%rbp)
+00000001000037b4	movq	-0x88(%rbp), %rdx
+00000001000037bb	movq	0x8(%rdx), %rsi
+00000001000037bf	movq	(%rdx), %rdx
+00000001000037c2	subq	%rdx, %rsi
+00000001000037c5	sarq	$0x3, %rsi
+00000001000037c9	movq	%rsi, -0x98(%rbp)
+00000001000037d0	movq	%rcx, %rdx
+00000001000037d3	movq	%rdx, -0x78(%rbp)
+00000001000037d7	movq	-0x78(%rbp), %rdx
+00000001000037db	movq	(%rdx), %rsi
+00000001000037de	movq	%rdx, -0x58(%rbp)
+00000001000037e2	movq	%rsi, -0x60(%rbp)
+00000001000037e6	movq	-0x58(%rbp), %rdx
+00000001000037ea	movq	%rcx, -0x1f0(%rbp)
+00000001000037f1	movq	%rdx, -0x1f8(%rbp)
+00000001000037f8	movq	-0x60(%rbp), %rax
+00000001000037fc	movq	-0x1f8(%rbp), %rcx
+0000000100003803	cmpq	0x8(%rcx), %rax
+0000000100003807	je	0x100003861
+000000010000380d	movq	-0x1f8(%rbp), %rax
+0000000100003814	movq	%rax, -0x50(%rbp)
+0000000100003818	movq	-0x50(%rbp), %rcx
+000000010000381c	addq	$0x10, %rcx
+0000000100003820	movq	%rcx, -0x48(%rbp)
+0000000100003824	movq	-0x48(%rbp), %rcx
+0000000100003828	movq	%rcx, -0x40(%rbp)
+000000010000382c	movq	-0x40(%rbp), %rcx
+0000000100003830	movq	0x8(%rax), %rdx
+0000000100003834	addq	$-0x8, %rdx
+0000000100003838	movq	%rdx, 0x8(%rax)
+000000010000383c	movq	%rdx, -0x8(%rbp)
+0000000100003840	movq	-0x8(%rbp), %rdx
+0000000100003844	movq	%rcx, -0x20(%rbp)
+0000000100003848	movq	%rdx, -0x28(%rbp)
+000000010000384c	movq	-0x20(%rbp), %rcx
+0000000100003850	movq	-0x28(%rbp), %rdx
+0000000100003854	movq	%rcx, -0x10(%rbp)
+0000000100003858	movq	%rdx, -0x18(%rbp)
+000000010000385c	jmp	0x1000037f8
+0000000100003861	movq	-0x98(%rbp), %rsi
+0000000100003868	movq	-0x1f0(%rbp), %rdi
+000000010000386f	callq	0x100003c6a             ## symbol stub for: __ZNKSt3__16vectorImNS_9allocatorImEEE17__annotate_shrinkEm
+0000000100003874	jmp	0x100003894
+0000000100003879	movl	%edx, %ecx
+000000010000387b	movq	%rax, -0xa0(%rbp)
+0000000100003882	movl	%ecx, -0xa4(%rbp)
+0000000100003888	movq	-0xa0(%rbp), %rdi
+000000010000388f	callq	0x100003ce8             ## symbol stub for: ___cxa_call_unexpected
+0000000100003894	movq	-0x1f0(%rbp), %rax
+000000010000389b	movq	%rax, -0x80(%rbp)
+000000010000389f	movq	-0x1e0(%rbp), %rcx
+00000001000038a6	movq	%rcx, -0xc0(%rbp)
+00000001000038ad	movq	-0xc0(%rbp), %rcx
+00000001000038b4	addq	$0x10, %rcx
+00000001000038b8	movq	%rcx, -0xb8(%rbp)
+00000001000038bf	movq	-0xb8(%rbp), %rcx
+00000001000038c6	movq	%rcx, -0xb0(%rbp)
+00000001000038cd	movq	-0xb0(%rbp), %rcx
+00000001000038d4	movq	-0x1e0(%rbp), %rdx
+00000001000038db	movq	(%rdx), %rsi
+00000001000038de	movq	%rdx, -0xe8(%rbp)
+00000001000038e5	movq	-0xe8(%rbp), %rdi
+00000001000038ec	movq	%rdi, -0xe0(%rbp)
+00000001000038f3	movq	-0xe0(%rbp), %rdi
+00000001000038fa	movq	%rdi, -0xd8(%rbp)
+0000000100003901	movq	-0xd8(%rbp), %r8
+0000000100003908	addq	$0x10, %r8
+000000010000390c	movq	%r8, -0xd0(%rbp)
+0000000100003913	movq	-0xd0(%rbp), %r8
+000000010000391a	movq	%r8, -0xc8(%rbp)
+0000000100003921	movq	-0xc8(%rbp), %r8
+0000000100003928	movq	(%r8), %r8
+000000010000392b	movq	(%rdi), %rdi
+000000010000392e	subq	%rdi, %r8
+0000000100003931	sarq	$0x3, %r8
+0000000100003935	movq	%rcx, -0x128(%rbp)
+000000010000393c	movq	%rsi, -0x130(%rbp)
+0000000100003943	movq	%r8, -0x138(%rbp)
+000000010000394a	movq	-0x128(%rbp), %rcx
+0000000100003951	movq	-0x130(%rbp), %rsi
+0000000100003958	movq	-0x138(%rbp), %rdi
+000000010000395f	movq	%rcx, -0x100(%rbp)
+0000000100003966	movq	%rsi, -0x108(%rbp)
+000000010000396d	movq	%rdi, -0x110(%rbp)
+0000000100003974	movq	-0x108(%rbp), %rcx
+000000010000397b	movq	%rcx, -0xf8(%rbp)
+0000000100003982	movq	-0xf8(%rbp), %rdi
+0000000100003989	callq	0x100003cd0             ## symbol stub for: __ZdlPv
+000000010000398e	leaq	-0x160(%rbp), %rax
+0000000100003995	movq	%rax, -0x150(%rbp)
+000000010000399c	movq	$-0x1, -0x158(%rbp)
+00000001000039a7	movq	-0x150(%rbp), %rax
+00000001000039ae	movq	-0x158(%rbp), %rcx
+00000001000039b5	movq	%rax, -0x140(%rbp)
+00000001000039bc	movq	%rcx, -0x148(%rbp)
+00000001000039c3	movq	-0x140(%rbp), %rax
+00000001000039ca	movq	$0x0, (%rax)
+00000001000039d1	movq	-0x160(%rbp), %rax
+00000001000039d8	movq	%rax, -0x200(%rbp)
+00000001000039df	leaq	-0x1d0(%rbp), %rax
+00000001000039e6	movq	-0x200(%rbp), %rcx
+00000001000039ed	movq	%rcx, -0x1d0(%rbp)
+00000001000039f4	movq	%rax, -0x168(%rbp)
+00000001000039fb	movq	-0x1e0(%rbp), %rax
+0000000100003a02	movq	%rax, -0x180(%rbp)
+0000000100003a09	movq	-0x180(%rbp), %rax
+0000000100003a10	addq	$0x10, %rax
+0000000100003a14	movq	%rax, -0x178(%rbp)
+0000000100003a1b	movq	-0x178(%rbp), %rax
+0000000100003a22	movq	%rax, -0x170(%rbp)
+0000000100003a29	movq	-0x170(%rbp), %rax
+0000000100003a30	movq	$0x0, (%rax)
+0000000100003a37	movq	-0x1e0(%rbp), %rax
+0000000100003a3e	movq	$0x0, 0x8(%rax)
+0000000100003a46	movq	$0x0, (%rax)
+0000000100003a4d	addq	$0x200, %rsp            ## imm = 0x200
+0000000100003a54	popq	%rbp
+0000000100003a55	retq
+0000000100003a56	nopw	%cs:(%rax,%rax)
+__ZNSt3__16vectorImNS_9allocatorImEEE8allocateEm:
+0000000100003a60	pushq	%rbp
+0000000100003a61	movq	%rsp, %rbp
+0000000100003a64	subq	$0x80, %rsp
+0000000100003a6b	movq	%rdi, -0x68(%rbp)
+0000000100003a6f	movq	%rsi, -0x70(%rbp)
+0000000100003a73	movq	-0x68(%rbp), %rsi
+0000000100003a77	movq	-0x70(%rbp), %rdi
+0000000100003a7b	movq	%rdi, -0x78(%rbp)
+0000000100003a7f	movq	%rsi, %rdi
+0000000100003a82	movq	%rsi, -0x80(%rbp)
+0000000100003a86	callq	0x100003c76             ## symbol stub for: __ZNKSt3__16vectorImNS_9allocatorImEEE8max_sizeEv
+0000000100003a8b	movq	-0x78(%rbp), %rsi
+0000000100003a8f	cmpq	%rax, %rsi
+0000000100003a92	jbe	0x100003aa4
+0000000100003a98	movq	-0x80(%rbp), %rax
+0000000100003a9c	movq	%rax, %rdi
+0000000100003a9f	callq	0x100003c52             ## symbol stub for: __ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv
+0000000100003aa4	movq	-0x80(%rbp), %rax
+0000000100003aa8	movq	%rax, -0x60(%rbp)
+0000000100003aac	movq	-0x60(%rbp), %rax
+0000000100003ab0	addq	$0x10, %rax
+0000000100003ab4	movq	%rax, -0x58(%rbp)
+0000000100003ab8	movq	-0x58(%rbp), %rax
+0000000100003abc	movq	%rax, -0x50(%rbp)
+0000000100003ac0	movq	-0x50(%rbp), %rax
+0000000100003ac4	movq	-0x70(%rbp), %rcx
+0000000100003ac8	movq	%rax, -0x40(%rbp)
+0000000100003acc	movq	%rcx, -0x48(%rbp)
+0000000100003ad0	movq	-0x40(%rbp), %rax
+0000000100003ad4	movq	-0x48(%rbp), %rcx
+0000000100003ad8	movq	%rax, -0x28(%rbp)
+0000000100003adc	movq	%rcx, -0x30(%rbp)
+0000000100003ae0	movq	$0x0, -0x38(%rbp)
+0000000100003ae8	movq	-0x30(%rbp), %rax
+0000000100003aec	shlq	$0x3, %rax
+0000000100003af0	movq	%rax, -0x20(%rbp)
+0000000100003af4	movq	-0x20(%rbp), %rdi
+0000000100003af8	callq	0x100003cdc             ## symbol stub for: __Znwm
+0000000100003afd	xorl	%edx, %edx
+0000000100003aff	movl	%edx, %esi
+0000000100003b01	movq	-0x80(%rbp), %rcx
+0000000100003b05	movq	%rax, 0x8(%rcx)
+0000000100003b09	movq	%rax, (%rcx)
+0000000100003b0c	movq	(%rcx), %rax
+0000000100003b0f	movq	-0x70(%rbp), %rdi
+0000000100003b13	shlq	$0x3, %rdi
+0000000100003b17	addq	%rdi, %rax
+0000000100003b1a	movq	%rcx, -0x18(%rbp)
+0000000100003b1e	movq	-0x18(%rbp), %rcx
+0000000100003b22	addq	$0x10, %rcx
+0000000100003b26	movq	%rcx, -0x10(%rbp)
+0000000100003b2a	movq	-0x10(%rbp), %rcx
+0000000100003b2e	movq	%rcx, -0x8(%rbp)
+0000000100003b32	movq	-0x8(%rbp), %rcx
+0000000100003b36	movq	%rax, (%rcx)
+0000000100003b39	movq	-0x80(%rbp), %rdi
+0000000100003b3d	callq	0x100003c5e             ## symbol stub for: __ZNKSt3__16vectorImNS_9allocatorImEEE14__annotate_newEm
+0000000100003b42	addq	$0x80, %rsp
+0000000100003b49	popq	%rbp
+0000000100003b4a	retq
+0000000100003b4b	nopl	(%rax,%rax)
+__ZNKSt3__16vectorImNS_9allocatorImEEE17__annotate_shrinkEm:
+0000000100003b50	pushq	%rbp
+0000000100003b51	movq	%rsp, %rbp
+0000000100003b54	subq	$0x90, %rsp
+0000000100003b5b	movq	%rdi, -0x78(%rbp)
+0000000100003b5f	movq	%rsi, -0x80(%rbp)
+0000000100003b63	movq	-0x78(%rbp), %rsi
+0000000100003b67	movq	%rsi, -0x70(%rbp)
+0000000100003b6b	movq	-0x70(%rbp), %rdi
+0000000100003b6f	movq	(%rdi), %rdi
+0000000100003b72	movq	%rdi, -0x68(%rbp)
+0000000100003b76	movq	-0x68(%rbp), %rdi
+0000000100003b7a	movq	%rsi, -0x60(%rbp)
+0000000100003b7e	movq	-0x60(%rbp), %rax
+0000000100003b82	movq	(%rax), %rax
+0000000100003b85	movq	%rax, -0x58(%rbp)
+0000000100003b89	movq	-0x58(%rbp), %rax
+0000000100003b8d	movq	%rsi, -0x28(%rbp)
+0000000100003b91	movq	-0x28(%rbp), %rcx
+0000000100003b95	movq	%rcx, -0x20(%rbp)
+0000000100003b99	movq	-0x20(%rbp), %rcx
+0000000100003b9d	movq	%rcx, -0x18(%rbp)
+0000000100003ba1	movq	-0x18(%rbp), %rdx
+0000000100003ba5	addq	$0x10, %rdx
+0000000100003ba9	movq	%rdx, -0x10(%rbp)
+0000000100003bad	movq	-0x10(%rbp), %rdx
+0000000100003bb1	movq	%rdx, -0x8(%rbp)
+0000000100003bb5	movq	-0x8(%rbp), %rdx
+0000000100003bb9	movq	(%rdx), %rdx
+0000000100003bbc	movq	(%rcx), %rcx
+0000000100003bbf	subq	%rcx, %rdx
+0000000100003bc2	sarq	$0x3, %rdx
+0000000100003bc6	shlq	$0x3, %rdx
+0000000100003bca	addq	%rdx, %rax
+0000000100003bcd	movq	%rsi, -0x38(%rbp)
+0000000100003bd1	movq	-0x38(%rbp), %rcx
+0000000100003bd5	movq	(%rcx), %rcx
+0000000100003bd8	movq	%rcx, -0x30(%rbp)
+0000000100003bdc	movq	-0x30(%rbp), %rcx
+0000000100003be0	movq	-0x80(%rbp), %rdx
+0000000100003be4	shlq	$0x3, %rdx
+0000000100003be8	addq	%rdx, %rcx
+0000000100003beb	movq	%rsi, -0x48(%rbp)
+0000000100003bef	movq	-0x48(%rbp), %rdx
+0000000100003bf3	movq	(%rdx), %rdx
+0000000100003bf6	movq	%rdx, -0x40(%rbp)
+0000000100003bfa	movq	-0x40(%rbp), %rdx
+0000000100003bfe	movq	%rsi, -0x50(%rbp)
+0000000100003c02	movq	-0x50(%rbp), %r8
+0000000100003c06	movq	0x8(%r8), %r9
+0000000100003c0a	movq	(%r8), %r8
+0000000100003c0d	subq	%r8, %r9
+0000000100003c10	sarq	$0x3, %r9
+0000000100003c14	shlq	$0x3, %r9
+0000000100003c18	addq	%r9, %rdx
+0000000100003c1b	movq	%rdi, -0x88(%rbp)
+0000000100003c22	movq	%rsi, %rdi
+0000000100003c25	movq	-0x88(%rbp), %rsi
+0000000100003c2c	movq	%rdx, -0x90(%rbp)
+0000000100003c33	movq	%rax, %rdx
+0000000100003c36	movq	-0x90(%rbp), %r8
+0000000100003c3d	callq	0x100003c70             ## symbol stub for: __ZNKSt3__16vectorImNS_9allocatorImEEE31__annotate_contiguous_containerEPKvS5_S5_S5_
+0000000100003c42	addq	$0x90, %rsp
+0000000100003c49	popq	%rbp
+0000000100003c4a	retq

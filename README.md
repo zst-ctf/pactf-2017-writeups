@@ -27,6 +27,7 @@ Challenges                                         | Points | Remarks
 *Bitesized*                                        |  80 | *Unsolved* 
 [RSA256][A17]                                      |  80 |
 
+*[Files and failed scripts for Round 1 unsolved challenges][AU]*
 
 [A1]: Round-1_Bartik/Et_tu_Brute
 [A2]: Round-1_Bartik/Welcome_to_PACTF
@@ -44,3 +45,6 @@ Challenges                                         | Points | Remarks
 [A14]: Round-1_Bartik/What_3_Words
 
 [A17]: Round-1_Bartik/RSA256
+
+[AU]: Round-1_Bartik/Unsolved
+
