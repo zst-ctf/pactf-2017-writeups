@@ -48,3 +48,38 @@ Challenges                                         | Points | Remarks
 
 [AU]: Round-1_Bartik/Unsolved
 
+---
+
+## Round 2: Boole
+
+Challenges                                         | Points | Remarks
+---------------------------------------------------|:---:| ---
+[Exploring the Binary!!!][B1] | 10 |
+*Time Travel* | 20 | *Unsolved* 
+[XOR 1][B3] | 20 | 
+*Impossible Conditions* | 30 | *Unsolved* 
+[Zeroes and Ones][B5] | 30 |
+*Open Sourcery 2* | 40 | *Unsolved* 
+*PACTF DRM* | 40 | *Unsolved* 
+*Quantum Theory* | 40 | *Unsolved* 
+[Remember md5?][B9] | 40 | 
+[XOR 2][B10] | 40 |
+[Hash Killer][B11] | 60 | 
+[Synesthesia][B12] | 60 |
+*The Gamble* | -20 | *Unsolved* 
+
+*[Files and failed scripts for Round 2 unsolved challenges][BU]*
+
+[B1]: Round-2_Boole/Exploring_the_Binary
+
+[B3]: Round-2_Boole/XOR_1
+
+[B5]: Round-2_Boole/Zeroes_and_Ones
+
+[B9]: Round-2_Boole/Remember_md5
+
+[B10]: Round-2_Boole/XOR_2
+[B11]: Round-2_Boole/Hash_Killer
+[B12]: Round-2_Boole/Synesthesia
+
+[BU]: Round-2_Boole/Unsolved
